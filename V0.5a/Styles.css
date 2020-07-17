@@ -1,7 +1,8 @@
 /* Mise en page */
 body
 {
-	margin:0;
+	/* RESET*/
+	margin:0; 
 	padding:0;
 }
 header
@@ -18,20 +19,32 @@ header
 .Flex
 {
 	display:flex;
-	justify-content:center;
+/*	justify-content:center; */
 	flex-wrap:wrap;
 /*	border:1px solid black; /* DEBUG */
-
 }
 
-/* Présentaiton START */
-
+/* Elements du conteneur */
 #Presentation
 {
-	width:40%;
+	width:30%;
 	
 	background-color:yellow;
 /*	border:1px solid black; /* DEBUG */
+}
+
+#PE
+{
+	width:70%;
+	background-color:green;	/* DEBUG */
+/*	border:1px solid black; /* DEBUG */
+}
+
+/* Mise en forme Présentaiton START */
+
+.MaPhoto p
+{
+	text-align:center;
 }
 
 #Presentation h3
@@ -52,83 +65,13 @@ header
 	margin:0 5px;
 }
 
-.Contact p, Apropos p
+.Contact p, .Apropos p
 {
 	padding-left: 5px;
+	padding-right: 5px;
 }
 
-.MaPhoto p
-{
-	text-align:center;
-}
-
-/*Présentaiton END */
-
-/* Exp et Formation START */
-
-#Formations-Parcours
-{
-	width:60%;
- /* border:1px solid black; /* DEBUG */
-}
-
-.Formations
-{
-/*	background-color:blue; /* DEBUG */
-	
-}
-
-.Formations h3
-{
-	font-weight:bold;
-	text-transform:uppercase;
-	
-	background-color:red;
-}
-
-.Formation p
-{
-	text-transform:uppercase;
-	
-}
-
-.F-Left, .E-Left
-{
-	border:1px solid black; /* DEBUG */
-	background-color:grey;  /* DEBUG */
-	float:left;
-	
-	padding-right:40px;
-	padding-left:10px;
-}
-
-.F-Right, .E-Right
-{
-	
-	border:1px solid black; /* DEBUG */
-	background-color:green; /* DEBUG */
-}
-
-.F-Right h4, .E-Right h4, .F-Right h5, .E-Right h5
-{
-	border:1px solid black; /* DEBUG */
-	background-color:blue;  /* DEBUG */
-	
-	text-transform:uppercase;
-	text-align:center;
-	
-}
-
-.Exp-Pro h3, .Formations h3
-{
-	background-color:red; /* DEBUG */
-	
-	text-transform:uppercase;
-	padding-left:5px;
-	
-}
-
-/* Exp et Formation END */
+/*Mise en forme Présentaiton END */
 
 /* Pied de page */
 footer
