@@ -134,18 +134,19 @@ a
 #PE h1
 {
 	font-size:40px;
-	padding-left:5%;
 	color:black;
-	margin:0px;
+	
+	padding-left:5%;
 	margin-top:15%;
 }
 
 #PE h2
 {
 	font-size:32px;
-	padding-left:5%;
-	margin:0px;
 	color:grey;
+	
+	padding-left:5%;
+	margin-bottom:15%;
 }
 
 #Formations h3, #Parcours h3
