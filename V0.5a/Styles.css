@@ -160,16 +160,10 @@ footer
 	padding:1%;
 }
 
-footer img, p
-{
-	display:none;
-}
-
 @media screen and (orientation: portrait)
 {
 	footer img
 	{
-		text-align:center;
 		width:50%;
 		weight:50%;
 	}
@@ -181,12 +175,18 @@ footer img, p
 	}
 }
 
-@media screen and (min-width:720px)
+@media screen and (min-width:805px)
 {
-	
+	footer img, footer p
+	{
+		display:none;
+	}
 }
 
 @media screen and (max-width:1168px) and (orientation: landscape)
 {
-	
+	footer img,footer p
+	{
+		display:none;
+	}
 }
