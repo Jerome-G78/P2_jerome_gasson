@@ -1,13 +1,8 @@
 /* Mise en page */
 
-@font-face {
- font-family: "Sansation";
- src: url("fonts/Sansation-Regular.woff") format("woff");
-}
-
 body
 {
-	font-family:Sansation,arial,Calibri;
+	font-family:Calibri, Courier, arial;
 	/* RESET*/
 	margin:0; 
 	padding:0;
@@ -42,7 +37,7 @@ body
 {
 	width:30%;
 	
-	background-color:yellow;
+	background-color:#3F51B5; /* Indigo */
 /*	border:1px solid black; /* DEBUG */
 }
 
@@ -74,12 +69,10 @@ body
 }
 
 #Presentation h3
-{
-	font-weight:bold;
-	
+{	
 	text-transform:uppercase;
 	text-align:center;
-	color:yellow;
+	color:#3F51B5; /* Indigo */
 	
 	background-color:grey;
 	
@@ -89,7 +82,7 @@ body
 
 .NameColor
 {
-	color:yellow;
+	color:#3F51B5; /* Indigo */
 	text-transform:uppercase;
 }
 
@@ -141,7 +134,6 @@ a
 #PE h1, #PE h2
 {
 	padding-left:5%;
-	text-shadow:1px 2px black;
 	color:grey;
 }
 #Formations h3, #Parcours h3
@@ -156,7 +148,7 @@ a
 
 #Formations hr, #Parcours hr
 {
-	color:yellow;
+	color:#3F51B5; /* Indigo */
 	margin-left:5%;
 	margin-right:5%;
 }
