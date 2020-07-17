@@ -31,7 +31,7 @@ body
 .Flex
 {
 	display:flex;
-/*	justify-content:center; */
+	justify-content:center;
 	flex-wrap:wrap;
 /*	border:1px solid black; /* DEBUG */
 }
@@ -190,7 +190,7 @@ footer
 {
 	background-color:#2196F3; /* Bleu ciel*/
 	text-align:center;
-	padding:1%;
+	padding:20%;
 }
 
 @media screen and (orientation: portrait)
@@ -216,7 +216,7 @@ footer
 
 @media screen and (min-width:805px)
 {
-	footer img, footer p
+	footer
 	{
 		display:none;
 	}
@@ -224,7 +224,7 @@ footer
 
 @media screen and (max-width:1168px) and (orientation: landscape)
 {
-	footer img,footer p
+	footer
 	{
 		display:none;
 	}
