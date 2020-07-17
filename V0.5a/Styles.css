@@ -37,6 +37,7 @@ header
 }
 
 /* Elements du conteneur */
+
 #Presentation
 {
 	width:30%;
@@ -48,7 +49,7 @@ header
 #PE
 {
 	width:70%;
-	background-color:green;	/* DEBUG */
+/*	background-color:green;	/* DEBUG */
 /*	border:1px solid black; /* DEBUG */
 }
 
@@ -92,6 +93,7 @@ header
 {
 	padding-left: 7%;
 	padding-right: 7%;
+	word-wrap: break-word;
 }
 
 .Loisirs img
@@ -107,14 +109,84 @@ header
 
 /* Mise en Forme Exp et Formation START */
 
+#Formations h3, #Parcours h3
+{
+	padding-left:2%;
+	text-transform:uppercase;
+	font-size:32px;
+	font-weight:bold;
+	text-shadow:1px 3px grey;
+	
+}
 
+#Formations hr, #Parcours hr
+{
+	color:grey;
+}
+
+#Formations img, #Parcours img
+{
+	width:30px;
+	weight:30px;
+	opacity:0.8;
+}
+
+.Left /* Dates */
+{
+	margin-left:20px;
+	float:left;
+	weight:40px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:60px;
+/*	background-color:grey; /* DEBUG */
+}
+
+.Right /* Details */
+{
+	padding:1px;
+	margin-top:2px;
+	margin-left:300px;
+/*	background-color:green; /* DEBUG */
+}
 
 /* Mise en Forme Exp et Formation END */
 
 /* Pied de page */
 footer
 {
-	background-color:red;
+	background-color:#0084ff; /* Bleu ciel*/
 	text-align:center;
 	padding:1%;
+}
+
+footer img, p
+{
+	display:none;
+}
+
+@media screen and (orientation: portrait)
+{
+	footer img
+	{
+		text-align:center;
+		width:50%;
+		weight:50%;
+	}
+
+	
+	#Formation, section, .Flex
+	{
+		display:none;
+	}
+}
+
+@media screen and (min-width:720px)
+{
+	
+}
+
+@media screen and (max-width:1168px) and (orientation: landscape)
+{
+	
 }
