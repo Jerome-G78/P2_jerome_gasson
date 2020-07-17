@@ -13,19 +13,19 @@ body
 	padding:0;
 }
 
-header
+/* header
 {
 	background-image:url("images/Fond-Code.png");
 	background-repeat:no-repeat;
 	background-color:#2196F3; /* Bleu ciel*/
 	
-	text-align:center;
+/*	text-align:center;
 	text-shadow:0px 3px black;
 	
 	color:#cecece;
 
 	padding:1%;
-}
+} */
 
 /* Conteneur */
 .Flex
@@ -57,10 +57,20 @@ header
 
 .MaPhoto img
 {
+	
 	width:50%;
 	height:50%;
-	margin:5% 25%;
+	margin:15% 25%;
 	
+}
+
+.RoundedImage /* Arondissement d'image avec ombrage */
+{
+	overflow:hidden;
+	-moz-border-radius:75px;
+	-webkit-border-radius:75px;
+	border-radius:75px;
+	box-shadow:0px 0px 3px grey;
 }
 
 #Presentation h3
@@ -72,6 +82,15 @@ header
 	color:yellow;
 	
 	background-color:grey;
+	
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+.NameColor
+{
+	color:yellow;
+	text-transform:uppercase;
 }
 
 #Presentation p
@@ -115,18 +134,27 @@ a
 
 /* Mise en Forme Exp et Formation START */
 
+#PE h1, #PE h2
+{
+	padding-left:5%;
+	text-shadow:1px 2px black;
+	color:grey;
+}
 #Formations h3, #Parcours h3
 {
-	padding-left:2%;
+	padding-left:5%;
+	margin-bottom:1%;
 	text-transform:uppercase;
 	font-size:32px;
 	font-weight:bold;
-	text-shadow:1px 3px grey;
+/*	text-shadow:1px 2px grey; */
 }
 
 #Formations hr, #Parcours hr
 {
-	color:grey;
+	color:yellow;
+	margin-left:5%;
+	margin-right:5%;
 }
 
 #Formations img, #Parcours img
