@@ -1,7 +1,13 @@
 /* Mise en page */
+
+@font-face {
+ font-family: "Sansation";
+ src: url("fonts/Sansation-Regular.woff") format("woff");
+}
+
 body
 {
-	font-family:arial,calibri;
+	font-family:Sansation,arial,Calibri;
 	/* RESET*/
 	margin:0; 
 	padding:0;
@@ -14,8 +20,7 @@ header
 	text-shadow:1px 2px grey;
 	
 	color:white;
-	
-	box-shadow:2px 2px 1px grey;
+
 	padding:1%;
 }
 
@@ -88,11 +93,10 @@ header
 
 .Loisirs img
 {
-	width:15%;
-	weight:15%;
+	width:10%;
+	weight:10%;
 	
-	padding:5% 8%;
-	
+	padding:5% 7%;
 	opacity:0.8;
 }
 
