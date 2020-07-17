@@ -53,7 +53,7 @@ header
 /*	border:1px solid black; /* DEBUG */
 }
 
-/* Mise en forme Présentaiton START */
+/* Mise en forme Présentation START */
 
 .MaPhoto img
 {
@@ -105,7 +105,13 @@ header
 	opacity:0.8;
 }
 
-/*Mise en forme Présentaiton END */
+a
+{
+	text-decoration:none;
+	color:black;
+}
+
+/*Mise en forme Présentation END */
 
 /* Mise en Forme Exp et Formation START */
 
