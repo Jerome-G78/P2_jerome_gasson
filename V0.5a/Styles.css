@@ -58,7 +58,7 @@ header
 .MaPhoto img
 {
 	width:50%;
-	weight:50%;
+	height:50%;
 	margin:5% 25%;
 	
 }
@@ -99,7 +99,7 @@ header
 .Loisirs img
 {
 	width:10%;
-	weight:10%;
+	height:10%;
 	
 	padding:5% 7%;
 	opacity:0.8;
@@ -122,7 +122,6 @@ a
 	font-size:32px;
 	font-weight:bold;
 	text-shadow:1px 3px grey;
-	
 }
 
 #Formations hr, #Parcours hr
@@ -133,7 +132,7 @@ a
 #Formations img, #Parcours img
 {
 	width:30px;
-	weight:30px;
+	height:30px;
 	opacity:0.8;
 }
 
@@ -141,7 +140,7 @@ a
 {
 	margin-left:20px;
 	float:left;
-	weight:40px;
+	height:40px;
 	padding-left:20px;
 	padding-right:20px;
 	padding-bottom:60px;
@@ -177,7 +176,7 @@ footer
 	footer img
 	{
 		width:50%;
-		weight:50%;
+		height:50%;
 	}
 
 	
