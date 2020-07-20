@@ -148,6 +148,15 @@ a
 
 /* Mise en Forme Exp, Formation & Recommandations START */
 
+.Deco hr
+{
+	color:#f8c906; /* Jaune Foncé */
+	margin-top:-1%;
+	margin-bottom:11%;
+	margin-left:5%;
+	margin-right:85%;
+}
+
 #PER h1
 {
 	font-size:52px;
@@ -167,7 +176,7 @@ a
 	padding-left:5%;
 	padding-top:0;
 	margin-top:0;
-	margin-bottom:11%;
+	margin-bottom:0%;
 }
 
 .NameColor
