@@ -2,7 +2,7 @@
 
 body
 {
-	font-family:Calibri, Courier, arial;
+	font-family:arial;
 	/* RESET*/
 	margin:0; 
 	padding:0;
@@ -37,7 +37,7 @@ body
 {
 	width:30%;
 	
-	background-color:#3F51B5; /* Indigo */
+	background-color:#f8c906; /* Jaune Foncé */
 /*	border:1px solid black; /* DEBUG */
 }
 
@@ -70,12 +70,12 @@ body
 
 #Presentation h3
 {
-	font-size:32px;
+	font-size:20px;
 	text-transform:uppercase;
 	text-align:center;
-	color:#3F51B5; /* Indigo */
+	color:#f8c906; /* Jaune Foncé */
 	
-	background-color:grey;
+	background-color:#404040; /* Gris Foncé*/
 	
 	padding-top:1%;
 	padding-bottom:1%;
@@ -83,7 +83,7 @@ body
 
 .NameColor
 {
-	color:#3F51B5; /* Indigo */
+	color:#f8c906; /* Jaune Foncé */
 	text-transform:uppercase;
 }
 
@@ -93,19 +93,18 @@ body
 	margin:0 5px;
 }
 
-.Contact h4
+.Contact p
 {
-	font-style:italic;
 	margin:2% 0;
-	
+	font-size:12px;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 
 .Contact p, .Apropos p
 {
-	padding-left: 7%;
-	padding-right: 7%;
+	padding-left: 2%;
+	padding-right: 2%;
 	word-wrap: break-word;
 }
 
@@ -119,6 +118,8 @@ body
 	margin-left:5%;
 	margin-right:5%;
 	opacity:0.8;
+	
+	
 }
 
 a
@@ -134,7 +135,7 @@ a
 #PE h1
 {
 	font-size:40px;
-	color:black;
+	color:#4a4a4a;
 	
 	padding-left:5%;
 	margin-top:15%;
@@ -143,7 +144,7 @@ a
 #PE h2
 {
 	font-size:32px;
-	color:grey;
+	color:#6b6b6b;
 	
 	padding-left:5%;
 	margin-bottom:15%;
@@ -155,13 +156,12 @@ a
 	margin-bottom:1%;
 	text-transform:uppercase;
 	font-size:32px;
-	font-weight:bold;
 /*	text-shadow:1px 2px grey; */
 }
 
 #Formations hr, #Parcours hr
 {
-	color:#3F51B5; /* Indigo */
+	color:#f8c906; /* Jaune Foncé */
 	margin-left:5%;
 	margin-right:5%;
 }
