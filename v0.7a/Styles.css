@@ -1,0 +1,282 @@
+/* Mise en page */
+
+@font-face 
+{
+    font-family: 'Hind';
+    src: url('fonts/Hind/Hind-Regular.woff') format('woff');
+}
+
+body
+{
+	font-family:Hind;
+	/* RESET*/
+	margin:0; 
+	padding:0;
+}
+
+/* header
+{
+	background-image:url("images/Fond-Code.png");
+	background-repeat:no-repeat;
+	background-color:#2196F3; /* Bleu ciel*/
+	
+/*	text-align:center;
+	text-shadow:0px 3px black;
+	
+	color:#cecece;
+
+	padding:1%;
+} */
+
+/* Conteneur */
+.Flex
+{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+/*	border:1px solid black; /* DEBUG */
+}
+
+/* Elements du conteneur */
+
+#Presentation
+{
+	width:35%;
+	
+	background-color:#f8c906; /* Jaune Foncé */
+/*	border:1px solid black; /* DEBUG */
+}
+
+#PE
+{
+	width:65%;
+/*	background-color:green;	/* DEBUG */
+/*	border:1px solid black; /* DEBUG */
+}
+
+/* Mise en forme Présentation START */
+
+.MaPhoto img
+{
+	
+	width:60%;
+	height:60%;
+	margin:0% 20%;
+	margin-top:20%;
+	
+}
+
+.RoundedImage /* Arondissement d'image avec ombrage */
+{
+	overflow:hidden;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	box-shadow:0px 0px 0px 4px #c5a01b;
+}
+
+#Presentation h3
+{
+	font-size:30px;
+	font-weight:italic;
+	text-transform:uppercase;
+	text-align:center;
+	color:#f8c906; /* Jaune Foncé */
+	
+	background-color:#404040; /* Gris Foncé*/
+	
+	padding-top:0%;
+	padding-bottom:0%;
+}
+
+.NameColor
+{
+	color:#f8c906; /* Jaune Foncé */
+	text-transform:uppercase;
+}
+
+#Presentation p
+{
+	text-align:justify;
+	margin:0 5px;
+}
+
+.Contact p, .Apropos p
+{
+	padding: 0 10%;
+	font-size:16px;
+	word-wrap: break-word;
+}
+
+.Apropos
+{
+	position: relative;
+	margin-bottom:60%;
+}
+.Loisirs img
+{
+	width:20%;
+	height:20%;
+	
+	padding-top:1%;
+	padding-left:2%;
+	margin-left:5%;
+	margin-right:5%;
+	opacity:0.8;
+}
+.Loisirs
+{
+	position: relative;
+}
+
+.RoundedImage-L
+{
+	overflow:hidden;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	box-shadow:0px 0px 0px 3px black;
+}
+
+a
+{
+	text-decoration:none;
+	color:black;
+}
+
+/*Mise en forme Présentation END */
+
+/* Mise en Forme Exp et Formation START */
+
+#PE h1
+{
+	font-size:40px;
+	color:#4a4a4a;
+	
+	padding-left:5%;
+	padding-bottom:0;
+	margin-top:15%;
+	margin-bottom:0;
+}
+
+#PE h2
+{
+	font-size:32px;
+	color:#6b6b6b;
+	
+	padding-left:5%;
+	margin-top:0;
+	padding-top:0;
+}
+
+#Formations h3, #Parcours h3
+{
+	padding-left:5%;
+	margin-bottom:1%;
+	text-transform:uppercase;
+	font-size:32px;
+/*	text-shadow:1px 2px grey; */
+}
+
+#Formation [fa-graduation-cap]
+{
+	padding:5px 0;
+}
+#Formations hr, #Parcours hr
+{
+	color:#f8c906; /* Jaune Foncé */
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#Formations img, #Parcours img
+{
+	width:30px;
+	height:30px;
+	opacity:0.8;
+}
+
+#Formations h4, #Parcours h4
+{
+	font-size:20px;
+	text-transform:uppercase;
+}
+
+#Formations h5, #Parcours h5
+{
+	font-size:16px;
+}
+
+.Circle
+{
+	color:#f8c906; /* Jaune Foncé */
+	padding-top:20px;
+	padding-left:40px;
+	float:left;
+}
+
+.Left /* Dates */
+{
+	margin-left:20px;
+	float:left;
+	height:40px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:60px;
+/*	background-color:grey; /* DEBUG */
+}
+
+.Right /* Details */
+{
+	padding:1px;
+	margin-top:2px;
+	margin-left:300px;
+/*	background-color:green; /* DEBUG */
+}
+
+/* Mise en Forme Exp et Formation END */
+
+/* Pied de page */
+footer
+{
+	background-color:#2196F3; /* Bleu ciel*/
+	text-align:center;
+	padding:20%;
+}
+
+@media screen and (orientation: portrait)
+{
+	body
+	{
+		background-color:#2196F3; /* Bleu ciel*/
+	}
+	
+	
+	footer img
+	{
+		width:50%;
+		height:50%;
+	}
+
+	
+	#Formation, section, .Flex
+	{
+		display:none;
+	}
+}
+
+@media screen and (min-width:805px)
+{
+	footer
+	{
+		display:none;
+	}
+}
+
+@media screen and (max-width:1168px) and (orientation: landscape)
+{
+	footer
+	{
+		display:none;
+	}
+}
