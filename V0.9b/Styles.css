@@ -309,13 +309,23 @@ footer
 	text-align:center;
 	padding:20%;
 }
+
+
+
 @media screen and (min-width:1024px) and (orientation: landscape)
 {
 	footer
 	{
 		display:none;
 	}
+	
+	.Futur
+	{
+		display:none;
+	}
 }
+
+
 
 @media screen and (max-width:1024px) and (orientation: landscape)
 {
@@ -361,6 +371,12 @@ footer
 	{
 		display:none;
 	}
+	
+	.Futur
+	{
+		display:none;
+	}
+	
 	/* Mise en Forme Exp, Formation & Recommandations END */
 }
 
@@ -419,6 +435,11 @@ footer
 	}
 	
 	footer
+	{
+		display:none;
+	}
+	
+	.Futur
 	{
 		display:none;
 	}
@@ -568,8 +589,186 @@ footer
 		display:none;
 	}
 	
+	.Futur
+	{
+		display:none;
+	}
+	
 	#Formation, section, .Flex
 	{
 	/*	display:none; */
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:640px) and (orientation: landscape)
+{
+	/* Mise en page génerale START */
+	
+	body
+	{
+	/*	background-color:#2196F3; /* Bleu ciel*/
+	}
+	
+	.Flex
+	{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		flex-wrap:wrap;
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	#Presentation
+	{
+		width:100%;
+		background-color:#f8c906; /* Jaune Foncé */
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	#PER
+	{
+		width:100%;
+	/*	background-color:green;	/* DEBUG */
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	/* Mise en page génerale END */
+	
+	/* Mise en Forme Exp, Formation & Recommandations START */
+	
+	.Deco hr
+	{
+		color:#f8c906; /* Jaune Foncé */
+		margin-top:-1%;
+		margin-bottom:11%;
+		margin-left:5%;
+		margin-right:76%;
+	}
+	
+	#PER h1
+	{
+		font-size:32px;
+		color:#4a4a4a;
+	
+		padding-left:5%;
+		padding-bottom:0;
+		margin-top:12%;
+		margin-bottom:0;
+	}
+
+	#PER h2
+	{
+		font-size:16px;
+		color:#6b6b6b;
+	
+		padding-left:5%;
+		padding-top:0;
+		margin-top:0;
+		margin-bottom:0%;
+	}
+	
+	#Formations h3, #Parcours h3, #Recommandations h3
+	{
+		padding-left:5%;
+		margin-bottom:1%;
+		text-transform:uppercase;
+		font-size:20px;
+	/*	text-shadow:1px 2px grey; */
+	}
+	
+	#Formations h4, #Parcours h4
+	{
+		font-size:14px;
+		text-transform:uppercase;
+	}
+
+	.Circle
+	{
+		color:#f8c906; /* Jaune Foncé */
+		padding-top:5%;
+		padding-left:5%;
+		float:left;
+	}
+	
+	.Left /* Dates */
+	{
+		width:26%;
+		margin-left:2%;
+		float:left;
+		padding-left:1%;
+		padding-right:1%;
+		padding-bottom:10%;
+	/*	background-color:grey; /* DEBUG */
+	}
+	
+	.Left p
+	{
+		font-size:14px;
+		word-wrap: break-word;
+	}
+
+	.Right /* Details */
+	{
+		padding-top:2%;
+		margin-top:0;
+		margin-left:42%;
+		padding-bottom:0;
+	/*	background-color:green; /* DEBUG */
+	}
+	
+	.Left-R
+	{
+		margin-left:5%;
+		float:left;
+	/*	border:1px solid black; /* DEBUG */
+
+	}
+	.Right-R
+	{
+		margin-left:5%;
+		float:left;
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	/* Mise en Forme Exp, Formation & Recommandations END */
+	
+	
+	footer img
+	{
+		width:50%;
+		height:50%;
+	}
+	
+	.Futur
+	{
+		display:none;
+	}
+
+	footer
+	{
+		display:none;
+	}
+	
+	#Formation, section, .Flex
+	{
+	/*	display:none; */
+	}
+}
+
+@media screen (max-width:319px) and (orientation: portrait)
+{
+	
+	#Formation, section, .Flex
+	{
+	display:none;
+	}
+}
+
+@media screen (max-width:319px) and (orientation: landscape)
+{
+	
+	#Formation, section, .Flex
+	{
+	display:none;
 	}
 }
