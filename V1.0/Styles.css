@@ -163,6 +163,10 @@ a
 	margin-right:85%;
 }
 
+svg
+{
+	color:#f8c906; /* Jaune Foncé */
+}
 #PER h1
 {
 	font-size:52px;
@@ -235,11 +239,21 @@ a
 	font-size:16px;
 }
 
-.Circle
+.Circle-1
 {
 	color:#f8c906; /* Jaune Foncé */
+	font-size:14px;
 	padding-top:20px;
-	padding-left:40px;
+	padding-left:5%;
+	float:left;
+}
+
+.Circle-2
+{
+	color:#f8c906; /* Jaune Foncé */
+	font-size:12px;
+	padding-top:20px;
+	padding-left:5%;
 	float:left;
 }
 
