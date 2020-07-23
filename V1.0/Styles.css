@@ -332,16 +332,28 @@ footer
 
 @media screen and (min-width:1089px) and (orientation: landscape)
 {
+	#Responsive-Presentation
+	{
+		display:none;
+	}
+	
 	footer
 	{
 		display:none;
 	}
 }
 
-@media screen and (max-width:1089px) and (orientation: landscape)
+@media screen and (max-width:1088px) and (orientation: landscape)
 {
+	/*Mise en forme Présentation START */
+	.Loisirs
+	{
+		display:none;
+	}
+	/*Mise en forme Présentation END */
+	
 	/* Mise en Forme Exp, Formation & Recommandations START */
-		
+	
 	.Deco hr
 	{
 		color:#f8c906; /* Jaune Foncé */
@@ -379,15 +391,54 @@ footer
 	/*	border:1px solid black; /* DEBUG */
 	}
 	
+	/* Mise en Forme Exp, Formation & Recommandations END */
+	
+	/* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+	font-size:30px;
+	text-transform:uppercase;
+	text-align:center;
+	color:#f8c906; /* Jaune Foncé */
+	
+	background-color:#404040; /* Gris Foncé*/
+	
+	padding-top:0%;
+	padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+		padding-top:2%;
+		padding-bottom:2%;
+		display:block;
+		text-align:center;
+	/*	background-color:grey; /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:12%;
+		padding:1% 1%;
+		padding-left:2%;
+		margin-left:5%;
+		margin-right:5%;
+		opacity:0.8;
+	}
+	
 	footer
 	{
 		display:none;
 	}
-	
-	/* Mise en Forme Exp, Formation & Recommandations END */
+	/* Mise en page Bas de page responsive END */
 }
 
-@media screen and (min-width:640px) and (max-width:1089px) and (orientation: landscape)
+@media screen and (min-width:992px) and (max-width:1088px) and (orientation: landscape)
 {
 	/* Mise en page génerale START */
 	
@@ -413,14 +464,6 @@ footer
 	}
 	
 	/* Mise en page génerale END */
-	
-	/*Mise en forme Présentation START */
-	.Loisirs
-	{
-		padding-top:0;
-	/*	border:1px solid black; /* DEBUG */
-	}
-	/*Mise en forme Présentation END */
 	
 	/* Mise en Forme Exp, Formation & Recommandations START */
 	#PER
@@ -439,361 +482,9 @@ footer
 	
 	/* Mise en Forme Exp, Formation & Recommandations END */
 	
-	#Formation, section, .Flex
-	{
-	/*	display:none; */
-	}
-	
 	footer
 	{
 		display:none;
-	}
-}
-
-@media screen and (min-width:320px) and (max-width:640px) and (orientation: portrait)
-{
-	/* Mise en page génerale START */
-	
-	body
-	{
-	/*	background-color:#2196F3; /* Bleu ciel*/
-	}
-	
-	.Flex
-	{
-		display:flex;
-		flex-direction:column;
-		justify-content:center;
-		flex-wrap:wrap;
-	/*	border:1px solid black; /* DEBUG */
-	}
-	
-	#Presentation
-	{
-		width:100%;
-		background-color:#f8c906; /* Jaune Foncé */
-	/*	border:1px solid black; /* DEBUG */
-	}
-	
-	#PER
-	{
-		width:100%;
-	/*	background-color:green;	/* DEBUG */
-	/*	border:1px solid black; /* DEBUG */
-	}
-	
-	/* Mise en page génerale END */
-	
-	/*Mise en forme Présentation START */
-	.Loisirs
-	{
-		padding-top:0;
-	/*	border:1px solid black; /* DEBUG */
-	}
-	/*Mise en forme Présentation END */
-	
-	/* Mise en Forme Exp, Formation & Recommandations START */
-	
-	.Deco hr
-	{
-		color:#f8c906; /* Jaune Foncé */
-		margin-top:-1%;
-		margin-bottom:11%;
-		margin-left:5%;
-		margin-right:76%;
-	}
-	
-	#PER h1
-	{
-		font-size:32px;
-		color:#4a4a4a;
-	
-		padding-left:5%;
-		padding-bottom:0;
-		margin-top:12%;
-		margin-bottom:0;
-	}
-
-	#PER h2
-	{
-		font-size:16px;
-		color:#6b6b6b;
-	
-		padding-left:5%;
-		padding-top:0;
-		margin-top:0;
-		margin-bottom:0%;
-	}
-	
-	#Formations h3, #Parcours h3, #Recommandations h3
-	{
-		padding-left:5%;
-		margin-bottom:1%;
-		text-transform:uppercase;
-		font-size:20px;
-	/*	text-shadow:1px 2px grey; */
-	}
-	
-	#Formations h4, #Parcours h4
-	{
-		font-size:14px;
-		text-transform:uppercase;
-	}
-
-	.Circle
-	{
-		color:#f8c906; /* Jaune Foncé */
-		padding-top:5%;
-		padding-left:5%;
-		float:left;
-	}
-	
-	.Left /* Dates */
-	{
-		width:26%;
-		margin-left:2%;
-		float:left;
-		padding-left:1%;
-		padding-right:1%;
-		padding-bottom:10%;
-	/*	background-color:grey; /* DEBUG */
-	}
-	
-	.Left p
-	{
-		font-size:14px;
-		word-wrap: break-word;
-	}
-
-	.Right /* Details */
-	{
-		padding-top:2%;
-		margin-top:0;
-		margin-left:42%;
-		padding-bottom:0;
-	/*	background-color:green; /* DEBUG */
-	}
-	
-	.Left-R
-	{
-		margin-left:5%;
-		float:left;
-	/*	border:1px solid black; /* DEBUG */
-
-	}
-	.Right-R
-	{
-		margin-left:5%;
-		float:left;
-	/*	border:1px solid black; /* DEBUG */
-	}
-	
-	/* Mise en Forme Exp, Formation & Recommandations END */
-	
-	
-	footer img
-	{
-		width:50%;
-		height:50%;
-	}
-
-	footer
-	{
-		display:none;
-	}
-	
-	#Formation, section, .Flex
-	{
-	/*	display:none; */
-	}
-}
-
-@media screen and (min-width:320px) and (max-width:640px) and (orientation: landscape)
-{
-	/* Mise en page génerale START */
-	
-	body
-	{
-	/*	background-color:#2196F3; /* Bleu ciel*/
-	}
-	
-	.Flex
-	{
-		display:flex;
-		flex-direction:column;
-		justify-content:center;
-		flex-wrap:wrap;
-	/*	border:1px solid black; /* DEBUG */
-	}
-	
-	#Presentation
-	{
-		width:100%;
-		background-color:#f8c906; /* Jaune Foncé */
-	/*	border:1px solid black; /* DEBUG */
-	}
-	
-	#PER
-	{
-		width:100%;
-	/*	background-color:green;	/* DEBUG */
-	/*	border:1px solid black; /* DEBUG */
-	}
-	
-	/* Mise en page génerale END */
-	
-	/*Mise en forme Présentation START */
-	.Loisirs
-	{
-		padding-top:0;
-	/*	border:1px solid black; /* DEBUG */
-	}
-	/*Mise en forme Présentation END */
-	
-	/* Mise en Forme Exp, Formation & Recommandations START */
-	
-	.Deco hr
-	{
-		color:#f8c906; /* Jaune Foncé */
-		margin-top:-1%;
-		margin-bottom:11%;
-		margin-left:5%;
-		margin-right:76%;
-	}
-	
-	#PER h1
-	{
-		font-size:32px;
-		color:#4a4a4a;
-	
-		padding-left:5%;
-		padding-bottom:0;
-		margin-top:12%;
-		margin-bottom:0;
-	}
-
-	#PER h2
-	{
-		font-size:16px;
-		color:#6b6b6b;
-	
-		padding-left:5%;
-		padding-top:0;
-		margin-top:0;
-		margin-bottom:0%;
-	}
-	
-	#Formations h3, #Parcours h3, #Recommandations h3
-	{
-		padding-left:5%;
-		margin-bottom:1%;
-		text-transform:uppercase;
-		font-size:20px;
-	/*	text-shadow:1px 2px grey; */
-	}
-	
-	#Formations h4, #Parcours h4
-	{
-		font-size:14px;
-		text-transform:uppercase;
-	}
-
-	.Circle
-	{
-		color:#f8c906; /* Jaune Foncé */
-		padding-top:5%;
-		padding-left:5%;
-		float:left;
-	}
-	
-	.Left /* Dates */
-	{
-		width:26%;
-		margin-left:2%;
-		float:left;
-		padding-left:1%;
-		padding-right:1%;
-		padding-bottom:10%;
-	/*	background-color:grey; /* DEBUG */
-	}
-	
-	.Left p
-	{
-		font-size:14px;
-		word-wrap: break-word;
-	}
-
-	.Right /* Details */
-	{
-		padding-top:2%;
-		margin-top:0;
-		margin-left:42%;
-		padding-bottom:0;
-	/*	background-color:green; /* DEBUG */
-	}
-	
-	.Left-R
-	{
-		margin-left:5%;
-		float:left;
-	/*	border:1px solid black; /* DEBUG */
-
-	}
-	.Right-R
-	{
-		margin-left:5%;
-		float:left;
-	/*	border:1px solid black; /* DEBUG */
-	}
-	
-	/* Mise en Forme Exp, Formation & Recommandations END */
-	
-	
-	footer img
-	{
-		width:50%;
-		height:50%;
-	}
-	
-	footer
-	{
-		display:none;
-	}
-	
-	#Formation, section, .Flex
-	{
-	/*	display:none; */
-	}
-}
-
-@media screen and (max-width:319px) and (orientation: portrait)
-{
-	footer img
-	{
-		width:50%;
-		height:50%;
-		opacity:0.8;
-	}
-	
-	#Formation, section, .Flex
-	{
-	display:none;
-	}
-}
-
-@media screen and (max-width:319px) and (orientation: landscape)
-{
-	
-	footer img
-	{
-		width:50%;
-		height:50%;
-		opacity:0.8;
-	}
-	
-	#Formation, section, .Flex
-	{
-	display:none;
 	}
 }
 
@@ -834,8 +525,7 @@ footer
 	/*Mise en forme Présentation START */
 	.Loisirs
 	{
-		padding-top:0;
-	/*	border:1px solid black; /* DEBUG */
+		display:none;
 	}
 	/*Mise en forme Présentation END */
 	
@@ -887,10 +577,20 @@ footer
 		text-transform:uppercase;
 	}
 
-	.Circle
+	.Circle-1
 	{
 		color:#f8c906; /* Jaune Foncé */
-		padding-top:5%;
+		font-size:14px;
+		padding-top:20px;
+		padding-left:5%;
+		float:left;
+	}
+
+	.Circle-2
+	{
+		color:#f8c906; /* Jaune Foncé */
+		font-size:12px;
+		padding-top:20px;
 		padding-left:5%;
 		float:left;
 	}
@@ -937,10 +637,49 @@ footer
 	
 	/* Mise en Forme Exp, Formation & Recommandations END */
 
+	/* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+	font-size:30px;
+	text-transform:uppercase;
+	text-align:center;
+	color:#f8c906; /* Jaune Foncé */
+	
+	background-color:#404040; /* Gris Foncé*/
+	
+	padding-top:0%;
+	padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+		padding-top:2%;
+		padding-bottom:2%;
+		display:block;
+		text-align:center;
+	/*	background-color:grey; /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:12%;
+		padding:1% 1%;
+		padding-left:2%;
+		margin-left:5%;
+		margin-right:5%;
+		opacity:0.8;
+	}
+	
 	footer
 	{
 		display:none;
 	}
+	/* Mise en page Bas de page responsive END */
 }
 
 @media screen and (min-width:640px) and (max-width:991px) and (orientation: portrait) /* Tablette */ 
@@ -980,8 +719,7 @@ footer
 	/*Mise en forme Présentation START */
 	.Loisirs
 	{
-		padding-top:0;
-	/*	border:1px solid black; /* DEBUG */
+		display:none;
 	}
 	/*Mise en forme Présentation END */
 	
@@ -1033,14 +771,24 @@ footer
 		text-transform:uppercase;
 	}
 
-	.Circle
+	.Circle-1
 	{
 		color:#f8c906; /* Jaune Foncé */
-		padding-top:5%;
+		font-size:14px;
+		padding-top:20px;
 		padding-left:5%;
 		float:left;
 	}
-	
+
+	.Circle-2
+	{
+		color:#f8c906; /* Jaune Foncé */
+		font-size:12px;
+		padding-top:20px;
+		padding-left:5%;
+		float:left;
+	}
+
 	.Left /* Dates */
 	{
 		width:26%;
@@ -1083,8 +831,478 @@ footer
 	
 	/* Mise en Forme Exp, Formation & Recommandations END */
 	
+	/* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+	font-size:30px;
+	text-transform:uppercase;
+	text-align:center;
+	color:#f8c906; /* Jaune Foncé */
+	
+	background-color:#404040; /* Gris Foncé*/
+	
+	padding-top:0%;
+	padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+		padding-top:2%;
+		padding-bottom:2%;
+		display:block;
+		text-align:center;
+	/*	background-color:grey; /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:12%;
+		padding:1% 1%;
+		padding-left:2%;
+		margin-left:5%;
+		margin-right:5%;
+		opacity:0.8;
+	}
+	
 	footer
 	{
 		display:none;
+	}
+	/* Mise en page Bas de page responsive END */
+}
+
+@media screen and (min-width:320px) and (max-width:640px) and (orientation: portrait)
+{
+	/* Mise en page génerale START */
+	
+	body
+	{
+	/*	background-color:#2196F3; /* Bleu ciel*/
+	}
+	
+	.Flex
+	{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		flex-wrap:wrap;
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	#Presentation
+	{
+		width:100%;
+		background-color:#f8c906; /* Jaune Foncé */
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	#PER
+	{
+		width:100%;
+	/*	background-color:green;	/* DEBUG */
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	/* Mise en page génerale END */
+	
+	/*Mise en forme Présentation START */
+	.Loisirs
+	{
+		display:none;
+	}
+	/*Mise en forme Présentation END */
+	
+	/* Mise en Forme Exp, Formation & Recommandations START */
+	
+	.Deco hr
+	{
+		color:#f8c906; /* Jaune Foncé */
+		margin-top:-1%;
+		margin-bottom:11%;
+		margin-left:5%;
+		margin-right:76%;
+	}
+	
+	#PER h1
+	{
+		font-size:32px;
+		color:#4a4a4a;
+	
+		padding-left:5%;
+		padding-bottom:0;
+		margin-top:12%;
+		margin-bottom:0;
+	}
+
+	#PER h2
+	{
+		font-size:16px;
+		color:#6b6b6b;
+	
+		padding-left:5%;
+		padding-top:0;
+		margin-top:0;
+		margin-bottom:0%;
+	}
+	
+	#Formations h3, #Parcours h3, #Recommandations h3
+	{
+		padding-left:5%;
+		margin-bottom:1%;
+		text-transform:uppercase;
+		font-size:20px;
+	/*	text-shadow:1px 2px grey; */
+	}
+	
+	#Formations h4, #Parcours h4
+	{
+		font-size:14px;
+		text-transform:uppercase;
+	}
+
+	.Circle-1
+	{
+		color:#f8c906; /* Jaune Foncé */
+		font-size:14px;
+		padding-top:20px;
+		padding-left:5%;
+		float:left;
+	}
+
+	.Circle-2
+	{
+		color:#f8c906; /* Jaune Foncé */
+		font-size:12px;
+		padding-top:20px;
+		padding-left:5%;
+		float:left;
+	}
+
+	.Left /* Dates */
+	{
+		width:26%;
+		margin-left:2%;
+		float:left;
+		padding-left:1%;
+		padding-right:1%;
+		padding-bottom:10%;
+	/*	background-color:grey; /* DEBUG */
+	}
+	
+	.Left p
+	{
+		font-size:14px;
+		word-wrap: break-word;
+	}
+
+	.Right /* Details */
+	{
+		padding-top:2%;
+		margin-top:0;
+		margin-left:42%;
+		padding-bottom:0;
+	/*	background-color:green; /* DEBUG */
+	}
+	
+	.Left-R
+	{
+		margin-left:5%;
+		float:left;
+	/*	border:1px solid black; /* DEBUG */
+
+	}
+	.Right-R
+	{
+		margin-left:5%;
+		float:left;
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	/* Mise en Forme Exp, Formation & Recommandations END */
+	
+	
+	/* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+	font-size:30px;
+	text-transform:uppercase;
+	text-align:center;
+	color:#f8c906; /* Jaune Foncé */
+	
+	background-color:#404040; /* Gris Foncé*/
+	
+	padding-top:0%;
+	padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+		padding-top:2%;
+		padding-bottom:2%;
+		display:block;
+		text-align:center;
+	/*	background-color:grey; /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:12%;
+		padding:1% 1%;
+		padding-left:2%;
+		margin-left:5%;
+		margin-right:5%;
+		opacity:0.8;
+	}
+	
+	footer
+	{
+		display:none;
+	}
+	/* Mise en page Bas de page responsive END */
+}
+
+@media screen and (min-width:320px) and (max-width:640px) and (orientation: landscape)
+{
+	/* Mise en page génerale START */
+	
+	body
+	{
+	/*	background-color:#2196F3; /* Bleu ciel*/
+	}
+	
+	.Flex
+	{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		flex-wrap:wrap;
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	#Presentation
+	{
+		width:100%;
+		background-color:#f8c906; /* Jaune Foncé */
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	#PER
+	{
+		width:100%;
+	/*	background-color:green;	/* DEBUG */
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	/* Mise en page génerale END */
+	
+	/*Mise en forme Présentation START */
+	.Loisirs
+	{
+		display:none;
+	}
+	/*Mise en forme Présentation END */
+	
+	/* Mise en Forme Exp, Formation & Recommandations START */
+	
+	.Deco hr
+	{
+		color:#f8c906; /* Jaune Foncé */
+		margin-top:-1%;
+		margin-bottom:11%;
+		margin-left:5%;
+		margin-right:76%;
+	}
+	
+	#PER h1
+	{
+		font-size:32px;
+		color:#4a4a4a;
+	
+		padding-left:5%;
+		padding-bottom:0;
+		margin-top:12%;
+		margin-bottom:0;
+	}
+
+	#PER h2
+	{
+		font-size:16px;
+		color:#6b6b6b;
+	
+		padding-left:5%;
+		padding-top:0;
+		margin-top:0;
+		margin-bottom:0%;
+	}
+	
+	#Formations h3, #Parcours h3, #Recommandations h3
+	{
+		padding-left:5%;
+		margin-bottom:1%;
+		text-transform:uppercase;
+		font-size:20px;
+	/*	text-shadow:1px 2px grey; */
+	}
+	
+	#Formations h4, #Parcours h4
+	{
+		font-size:14px;
+		text-transform:uppercase;
+	}
+
+	.Circle-1
+	{
+		color:#f8c906; /* Jaune Foncé */
+		font-size:14px;
+		padding-top:20px;
+		padding-left:5%;
+		float:left;
+	}
+
+	.Circle-2
+	{
+		color:#f8c906; /* Jaune Foncé */
+		font-size:12px;
+		padding-top:20px;
+		padding-left:5%;
+		float:left;
+	}
+
+	.Left /* Dates */
+	{
+		width:26%;
+		margin-left:2%;
+		float:left;
+		padding-left:1%;
+		padding-right:1%;
+		padding-bottom:10%;
+	/*	background-color:grey; /* DEBUG */
+	}
+	
+	.Left p
+	{
+		font-size:14px;
+		word-wrap: break-word;
+	}
+
+	.Right /* Details */
+	{
+		padding-top:2%;
+		margin-top:0;
+		margin-left:42%;
+		padding-bottom:0;
+	/*	background-color:green; /* DEBUG */
+	}
+	
+	.Left-R
+	{
+		margin-left:5%;
+		float:left;
+	/*	border:1px solid black; /* DEBUG */
+
+	}
+	.Right-R
+	{
+		margin-left:5%;
+		float:left;
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	/* Mise en Forme Exp, Formation & Recommandations END */
+	
+	
+	/* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+	font-size:30px;
+	text-transform:uppercase;
+	text-align:center;
+	color:#f8c906; /* Jaune Foncé */
+	
+	background-color:#404040; /* Gris Foncé*/
+	
+	padding-top:0%;
+	padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+		padding-top:2%;
+		padding-bottom:2%;
+		display:block;
+		text-align:center;
+	/*	background-color:grey; /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:12%;
+		padding:1% 1%;
+		padding-left:2%;
+		margin-left:5%;
+		margin-right:5%;
+		opacity:0.8;
+	}
+	
+	footer
+	{
+		display:none;
+	}
+	/* Mise en page Bas de page responsive END */
+}
+
+@media screen and (max-width:319px) and (orientation: portrait)
+{
+	#Responsive-Presentation
+	{
+		display:none;
+	}
+	
+	footer img
+	{
+		width:50%;
+		height:50%;
+		opacity:0.8;
+	}
+	
+	#Formation, section, .Flex
+	{
+	display:none;
+	}
+}
+
+@media screen and (max-width:319px) and (orientation: landscape)
+{
+	
+	#Responsive-Presentation
+	{
+		display:none;
+	}
+	
+	footer img
+	{
+		width:50%;
+		height:50%;
+		opacity:0.8;
+	}
+	
+	#Formation, section, .Flex
+	{
+	display:none;
 	}
 }
