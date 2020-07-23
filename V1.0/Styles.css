@@ -360,7 +360,7 @@ footer
 		margin-top:-1%;
 		margin-bottom:11%;
 		margin-left:5%;
-		margin-right:81%;
+		margin-right:87%;
 	}
 	
 	.Left /* Dates */
@@ -466,6 +466,7 @@ footer
 	/* Mise en page génerale END */
 	
 	/* Mise en Forme Exp, Formation & Recommandations START */
+	
 	#PER
 	{
 		width:100%;
@@ -534,10 +535,10 @@ footer
 	.Deco hr
 	{
 		color:#f8c906; /* Jaune Foncé */
-		margin-top:-1%;
+		margin-top:0;
 		margin-bottom:11%;
 		margin-left:5%;
-		margin-right:76%;
+		margin-right:90%;
 	}
 	
 	#PER h1
@@ -728,10 +729,10 @@ footer
 	.Deco hr
 	{
 		color:#f8c906; /* Jaune Foncé */
-		margin-top:-1%;
+		margin-top:0;
 		margin-bottom:11%;
 		margin-left:5%;
-		margin-right:76%;
+		margin-right:90%;
 	}
 	
 	#PER h1
@@ -922,10 +923,10 @@ footer
 	.Deco hr
 	{
 		color:#f8c906; /* Jaune Foncé */
-		margin-top:-1%;
+		margin-top:0;
 		margin-bottom:11%;
 		margin-left:5%;
-		margin-right:76%;
+		margin-right:88%;
 	}
 	
 	#PER h1
@@ -1123,10 +1124,10 @@ footer
 	.Deco hr
 	{
 		color:#f8c906; /* Jaune Foncé */
-		margin-top:-1%;
+		margin-top:0;
 		margin-bottom:11%;
 		margin-left:5%;
-		margin-right:76%;
+		margin-right:88%;
 	}
 	
 	#PER h1
