@@ -14,7 +14,8 @@ body
 	padding:0;
 }
 
-/* header
+/* 
+header
 {
 	background-image:url("images/Fond-Code.png");
 	background-repeat:no-repeat;
@@ -26,7 +27,8 @@ body
 	color:#cecece;
 
 	padding:1%;
-} */
+} 
+*/
 
 /* Conteneur */
 
@@ -167,6 +169,7 @@ svg
 {
 	color:#f8c906; /* Jaune Foncé */
 }
+
 #PER h1
 {
 	font-size:52px;
@@ -221,12 +224,14 @@ svg
 	margin-right:5%;
 }
 
-/*#Formations img, #Parcours img
+/*
+#Formations img, #Parcours img
 {
 	width:30px;
 	height:30px;
 	opacity:0.8;
-} */
+} 
+*/
 
 #Formations h4, #Parcours h4
 {
@@ -287,7 +292,7 @@ svg
 {
 	margin-top:-15%;
 /*	border:1px solid black; /* DEBUG */
-/*	background-color:grey; /* DEBUG */
+/*	background-color:grey;  /* DEBUG */
 }
 
 #Recommandations h4
@@ -326,7 +331,7 @@ footer
 
 
 
-@media screen and (min-width:1024px) and (orientation: landscape)
+@media screen and (min-width:1089px) and (orientation: landscape)
 {
 	footer
 	{
@@ -334,9 +339,7 @@ footer
 	}
 }
 
-
-
-@media screen and (max-width:1024px) and (orientation: landscape)
+@media screen and (max-width:1089px) and (orientation: landscape)
 {
 	/* Mise en Forme Exp, Formation & Recommandations START */
 		
@@ -382,15 +385,10 @@ footer
 		display:none;
 	}
 	
-	.Futur
-	{
-		display:none;
-	}
-	
 	/* Mise en Forme Exp, Formation & Recommandations END */
 }
 
-@media screen and (min-width:640px) and (max-width:1023px) and (orientation: landscape)
+@media screen and (min-width:640px) and (max-width:1089px) and (orientation: landscape)
 {
 	/* Mise en page génerale START */
 	
@@ -797,5 +795,297 @@ footer
 	#Formation, section, .Flex
 	{
 	display:none;
+	}
+}
+
+@media screen and (min-width:640px) and (max-width:991px) and (orientation: landscape) /* Tablette */ 
+{
+	/* Mise en page génerale START */
+	
+	body
+	{
+	/*	background-color:#2196F3; /* Bleu ciel*/
+	}
+	
+	.Flex
+	{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		flex-wrap:wrap;
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	#Presentation
+	{
+		width:100%;
+		background-color:#f8c906; /* Jaune Foncé */
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	#PER
+	{
+		width:100%;
+	/*	background-color:green;	/* DEBUG */
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	/* Mise en page génerale END */
+	
+	/*Mise en forme Présentation START */
+	.Loisirs
+	{
+		padding-top:0;
+	/*	border:1px solid black; /* DEBUG */
+	}
+	/*Mise en forme Présentation END */
+	
+	/* Mise en Forme Exp, Formation & Recommandations START */
+	
+	.Deco hr
+	{
+		color:#f8c906; /* Jaune Foncé */
+		margin-top:-1%;
+		margin-bottom:11%;
+		margin-left:5%;
+		margin-right:76%;
+	}
+	
+	#PER h1
+	{
+		font-size:32px;
+		color:#4a4a4a;
+	
+		padding-left:5%;
+		padding-bottom:0;
+		margin-top:12%;
+		margin-bottom:0;
+	}
+
+	#PER h2
+	{
+		font-size:16px;
+		color:#6b6b6b;
+	
+		padding-left:5%;
+		padding-top:0;
+		margin-top:0;
+		margin-bottom:0%;
+	}
+	
+	#Formations h3, #Parcours h3, #Recommandations h3
+	{
+		padding-left:5%;
+		margin-bottom:1%;
+		text-transform:uppercase;
+		font-size:20px;
+	/*	text-shadow:1px 2px grey; */
+	}
+	
+	#Formations h4, #Parcours h4
+	{
+		font-size:14px;
+		text-transform:uppercase;
+	}
+
+	.Circle
+	{
+		color:#f8c906; /* Jaune Foncé */
+		padding-top:5%;
+		padding-left:5%;
+		float:left;
+	}
+	
+	.Left /* Dates */
+	{
+		width:26%;
+		margin-left:2%;
+		float:left;
+		padding-left:1%;
+		padding-right:1%;
+		padding-bottom:10%;
+	/*	background-color:grey; /* DEBUG */
+	}
+	
+	.Left p
+	{
+		font-size:14px;
+		word-wrap: break-word;
+	}
+
+	.Right /* Details */
+	{
+		padding-top:2%;
+		margin-top:0;
+		margin-left:42%;
+		padding-bottom:0;
+	/*	background-color:green; /* DEBUG */
+	}
+	
+	.Left-R
+	{
+		margin-left:5%;
+		float:left;
+	/*	border:1px solid black; /* DEBUG */
+
+	}
+	.Right-R
+	{
+		margin-left:5%;
+		float:left;
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	/* Mise en Forme Exp, Formation & Recommandations END */
+
+	footer
+	{
+		display:none;
+	}
+}
+
+@media screen and (min-width:640px) and (max-width:991px) and (orientation: portrait) /* Tablette */ 
+{
+		/* Mise en page génerale START */
+	
+	body
+	{
+	/*	background-color:#2196F3; /* Bleu ciel*/
+	}
+	
+	.Flex
+	{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		flex-wrap:wrap;
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	#Presentation
+	{
+		width:100%;
+		background-color:#f8c906; /* Jaune Foncé */
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	#PER
+	{
+		width:100%;
+	/*	background-color:green;	/* DEBUG */
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	/* Mise en page génerale END */
+	
+	/*Mise en forme Présentation START */
+	.Loisirs
+	{
+		padding-top:0;
+	/*	border:1px solid black; /* DEBUG */
+	}
+	/*Mise en forme Présentation END */
+	
+	/* Mise en Forme Exp, Formation & Recommandations START */
+	
+	.Deco hr
+	{
+		color:#f8c906; /* Jaune Foncé */
+		margin-top:-1%;
+		margin-bottom:11%;
+		margin-left:5%;
+		margin-right:76%;
+	}
+	
+	#PER h1
+	{
+		font-size:32px;
+		color:#4a4a4a;
+	
+		padding-left:5%;
+		padding-bottom:0;
+		margin-top:12%;
+		margin-bottom:0;
+	}
+
+	#PER h2
+	{
+		font-size:16px;
+		color:#6b6b6b;
+	
+		padding-left:5%;
+		padding-top:0;
+		margin-top:0;
+		margin-bottom:0%;
+	}
+	
+	#Formations h3, #Parcours h3, #Recommandations h3
+	{
+		padding-left:5%;
+		margin-bottom:1%;
+		text-transform:uppercase;
+		font-size:20px;
+	/*	text-shadow:1px 2px grey; */
+	}
+	
+	#Formations h4, #Parcours h4
+	{
+		font-size:14px;
+		text-transform:uppercase;
+	}
+
+	.Circle
+	{
+		color:#f8c906; /* Jaune Foncé */
+		padding-top:5%;
+		padding-left:5%;
+		float:left;
+	}
+	
+	.Left /* Dates */
+	{
+		width:26%;
+		margin-left:2%;
+		float:left;
+		padding-left:1%;
+		padding-right:1%;
+		padding-bottom:10%;
+	/*	background-color:grey; /* DEBUG */
+	}
+	
+	.Left p
+	{
+		font-size:14px;
+		word-wrap: break-word;
+	}
+
+	.Right /* Details */
+	{
+		padding-top:2%;
+		margin-top:0;
+		margin-left:42%;
+		padding-bottom:0;
+	/*	background-color:green; /* DEBUG */
+	}
+	
+	.Left-R
+	{
+		margin-left:5%;
+		float:left;
+	/*	border:1px solid black; /* DEBUG */
+
+	}
+	.Right-R
+	{
+		margin-left:5%;
+		float:left;
+	/*	border:1px solid black; /* DEBUG */
+	}
+	
+	/* Mise en Forme Exp, Formation & Recommandations END */
+	
+	footer
+	{
+		display:none;
 	}
 }
