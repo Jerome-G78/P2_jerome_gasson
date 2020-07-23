@@ -961,6 +961,12 @@ footer
 	
 	#Formations h4, #Parcours h4
 	{
+		font-size:16px;
+		text-transform:uppercase;
+	}
+	
+	#Formations h5, #Parcours h5
+	{
 		font-size:14px;
 		text-transform:uppercase;
 	}
