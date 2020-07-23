@@ -1273,6 +1273,18 @@ footer
 	/* Mise en page Bas de page responsive END */
 }
 
+@media screen and (width:320px) and (orientation: portrait)
+{
+	.Deco hr
+	{
+		color:#f8c906; /* Jaune Foncé */
+		margin-top:0;
+		margin-bottom:11%;
+		margin-left:5%;
+		margin-right:81%;
+	}
+}
+
 @media screen and (max-width:319px) and (orientation: portrait)
 {
 	#Responsive-Presentation
