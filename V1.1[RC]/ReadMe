@@ -1,0 +1,32 @@
+-------------------------
+V 1.1 [Release-Candidate]
+-------------------------
+
+    - Ce code est stable et fonctionnel, cependant quelques défaut d'affichage peuvent encore être présents.
+    
+    - Le code CSS n'as pas été nettoyée pour disposer d'un historique cohérent des différentes versions.
+    
+    - Le code de décoration (.Deco) à été optimisé pour les Break-Point Media Queries 
+    
+    point de résolutions optimisés : 
+    [ 320px | Portrait ]
+    [ 640px | Portrait ]
+    [ 991px | Portrait ]
+    
+    Optimisation en cours sur les autres paramétrages "Media Queries".
+    
+    -------------------------
+    
+    
+    - This code is stable and functional, however some display faults may still be present.
+    
+    - The CSS code has not been cleaned to have a consistent history of the different versions.
+    
+    - The decoration code (.Deco) has been optimized for Break-Point Media Queries
+    
+    point of optimized resolutions:
+    [320px | Portrait]
+    [640px | Portrait]
+    [991px | Portrait]
+    
+    Optimization in progress on the other "Media Queries" settings.
