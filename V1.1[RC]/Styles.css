@@ -73,9 +73,9 @@ header
 .RoundedImage /* Arondissement d'image avec ombrage */
 {
 	overflow:hidden;
-	-moz-border-radius:50%;        /* Paramètre de compatibilité : Mozilla */
-	-webkit-border-radius:50%;     /* Paramètre de compatibilité : Chrome / Chromium */
-	-o-border-radius:50%;          /* Paramètre de compatibilité : Opera */
+	-moz-border-radius:50%;        /* Paramètre de rétrocompatibilité : Mozilla */
+	-webkit-border-radius:50%;     /* Paramètre de rétrocompatibilité : Chrome / Chromium */
+	-o-border-radius:50%;          /* Paramètre de rétrocompatibilité : Opera */
 	border-radius:50%;
 	box-shadow:0px 0px 0px 4px #c5a01b;
 }
@@ -738,6 +738,7 @@ footer
 		margin-bottom:11%;
 		margin-left:5%;
 		margin-right:90%;
+    /*  */
 	}
 	
 	#PER h1
