@@ -338,6 +338,15 @@ footer
 
 @media screen and (min-width:1089px) and (orientation: landscape)
 {
+    .Deco hr
+	{
+		color:#f8c906;      /* Jaune Foncé */
+		margin-top:-1%;
+		margin-bottom:11%;
+		margin-left:5%;
+		margin-right:88%;   /* 1920px */
+	}
+    
 	#Responsive-Presentation
 	{
 		display:none;
@@ -495,7 +504,7 @@ footer
 	}
 }
 
-@media screen and (min-width:640px) and (max-width:991px) and (orientation: landscape) /* Tablette */ 
+@media screen and (min-width:641px) and (max-width:991px) and (orientation: landscape) /* Tablette */ 
 {
 	/* Mise en page génerale START */
 	
@@ -690,7 +699,7 @@ footer
 	/* Mise en page Bas de page responsive END */
 }
 
-@media screen and (min-width:640px) and (max-width:991px) and (orientation: portrait) /* Tablette */ 
+@media screen and (min-width:641px) and (max-width:991px) and (orientation: portrait) /* Tablette */ 
 {
 		/* Mise en page génerale START */
 	
@@ -884,7 +893,7 @@ footer
 	/* Mise en page Bas de page responsive END */
 }
 
-@media screen and (min-width:320px) and (max-width:640px) and (orientation: portrait)
+@media screen and (min-width:321px) and (max-width:640px) and (orientation: portrait)
 {
 	/* Mise en page génerale START */
 	
@@ -1085,7 +1094,7 @@ footer
 	/* Mise en page Bas de page responsive END */
 }
 
-@media screen and (min-width:320px) and (max-width:640px) and (orientation: landscape)
+@media screen and (min-width:321px) and (max-width:640px) and (orientation: landscape)
 {
 	/* Mise en page génerale START */
 	
@@ -1288,7 +1297,7 @@ footer
 		margin-top:0;
 		margin-bottom:11%;
 		margin-left:5%;
-		margin-right:81%;
+		margin-right:84%;
 	}
 }
 
