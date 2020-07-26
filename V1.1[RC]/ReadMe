@@ -9,10 +9,10 @@ V 1.1 [Release-Candidate]
     - Le code de décoration (.Deco) à été optimisé pour les Break-Point Media Queries 
     
     point de résolutions optimisés : 
-    [ 320px | Portrait ]
-    [ 640px | Portrait ]
-    [ 991px | Portrait ]
-    [ 1920px| Landscape]
+    [ 320px  | Portrait ]
+    [ 640px  | Portrait ]
+    [ 991px  | Portrait ]
+    [ 1920px | Landscape]
     
     Optimisation en cours sur les autres paramétrages "Media Queries".
     
@@ -26,8 +26,9 @@ V 1.1 [Release-Candidate]
     - The decoration code (.Deco) has been optimized for Break-Point Media Queries
     
     point of optimized resolutions:
-    [320px | Portrait]
-    [640px | Portrait]
-    [991px | Portrait]
+    [ 320px  | Portrait ]
+    [ 640px  | Portrait ]
+    [ 991px  | Portrait ]
+    [ 1920px | Landscape]
     
     Optimization in progress on the other "Media Queries" settings.
