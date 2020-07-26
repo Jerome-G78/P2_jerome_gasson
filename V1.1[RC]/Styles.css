@@ -542,7 +542,8 @@ footer
 		margin-top:0;
 		margin-bottom:11%;
 		margin-left:5%;
-		margin-right:90%;
+		margin-right:91%;
+    /*  border: 1px solid black; /* DEBUG */ 
 	}
 	
 	#PER h1
