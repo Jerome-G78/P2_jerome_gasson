@@ -73,9 +73,9 @@ header
 .RoundedImage /* Arondissement d'image avec ombrage */
 {
 	overflow:hidden;
-	-moz-border-radius:50%;        /* Paramètre de rétrocompatibilité : Mozilla */
-	-webkit-border-radius:50%;     /* Paramètre de rétrocompatibilité : Chrome / Chromium */
-	-o-border-radius:50%;          /* Paramètre de rétrocompatibilité : Opera */
+	-moz-border-radius:50%;        /* Paramètre de compatibilité : Mozilla */
+	-webkit-border-radius:50%;     /* Paramètre de compatibilité : Chrome / Chromium */
+	-o-border-radius:50%;          /* Paramètre de compatibilité : Opera */
 	border-radius:50%;
 	box-shadow:0px 0px 0px 4px #c5a01b;
 }
@@ -164,6 +164,7 @@ a
 	margin-bottom:11%;
 	margin-left:5%;
 	margin-right:85%;
+    border: 1px solid #f8c906; /* Jaune Foncé */
 }
 
 svg
@@ -223,6 +224,7 @@ svg
 	color:#f8c906; /* Jaune Foncé */
 	margin-left:5%;
 	margin-right:5%;
+    border: 1px solid #f8c906; /* Jaune Foncé */
 }
 
 /*
@@ -738,7 +740,6 @@ footer
 		margin-bottom:11%;
 		margin-left:5%;
 		margin-right:90%;
-    /*  */
 	}
 	
 	#PER h1
