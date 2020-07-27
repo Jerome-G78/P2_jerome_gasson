@@ -192,6 +192,12 @@ a
 /*  border: 1px solid black;    /* DEBUG */
 }
 
+#Space
+{
+    margin: 0 2%;
+/*  border: 1px solid black;    /* DEBUG */
+}
+
 #Formation [fa-graduation-cap]
 {
 	padding:5px 0;
