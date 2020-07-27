@@ -7,6 +7,8 @@ V 1.1 [Release-Candidate]
 	- Le code de décoration (.Deco) à été optimisé.
     
 	- Optimisation en cours des paramétrages "Media Queries".
+	
+	- Optimisation en cours de l'interface PC.
     
 -------------------------
     
@@ -16,3 +18,5 @@ V 1.1 [Release-Candidate]
 	- The decoration code (.Deco) has been optimized.
     
 	- Optimization in progress of the "Media Queries" settings.
+	
+	- PC interface optimization in progress.
