@@ -881,7 +881,7 @@ footer
 	
 	.Deco hr
     {
-         width: 4em;
+         width: 2.8em;
     }
 	
 	#PER h1
@@ -897,7 +897,7 @@ footer
 
 	#PER h2
 	{
-		font-size:24px;
+		font-size:18px;
 		color:#6b6b6b;
 	
 		padding-left:5%;
@@ -908,7 +908,7 @@ footer
 	
 	#Formations h3, #Parcours h3, #Recommandations h3
 	{
-        font-size:18px;
+        font-size:16px;
         text-transform:uppercase;
         
 		padding-left:5%;
