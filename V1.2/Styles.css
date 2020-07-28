@@ -315,7 +315,7 @@ a
 .Space-R
 {
     padding-bottom:0%;
-	background-color:green;     /* DEBUG */
+/*	background-color:green;     /* DEBUG */
 }
 
 /* Mise en Forme Exp et Formation END */
@@ -345,6 +345,7 @@ footer
 
 @media screen and (max-width:1136px) and (orientation: landscape)
 {
+    
     #Presentation
     {
     /*	width:35%;  */
@@ -361,7 +362,14 @@ footer
     /*	border:1px solid black;     /* DEBUG */
     }
     
-	/* Mise en Forme Exp, Formation & Recommandations START */
+    /* Mise en forme Présentation START */
+    .Apropos
+    {
+        margin-bottom:40%;
+    }
+    /* Mise en forme Présentation END   */
+	
+    /* Mise en Forme Exp, Formation & Recommandations START */
 	
 	.Left /* Dates */
 	{
@@ -478,6 +486,11 @@ footer
 	
     /*Mise en forme Présentation START */
     
+    .Apropos
+    {
+        margin-bottom:40%;
+    }
+    
 	.Loisirs
 	{
 		display:none;
@@ -579,6 +592,12 @@ footer
 	/* Mise en page génerale END */
 	
 	/*Mise en forme Présentation START */
+
+    .Apropos
+    {
+        margin-bottom:40%;
+    }
+    
 	.Loisirs
 	{
 		display:none;
@@ -691,6 +710,23 @@ footer
 	/*	border:1px solid black; /* DEBUG */
 	}
 	
+    .Space-F
+    {
+        padding-bottom:3%;
+    /*	background-color:green;     /* DEBUG */
+    }
+
+    .Space-P
+    {
+        padding-bottom:18%;
+    /*	background-color:green;     /* DEBUG */
+    }
+
+    .Space-R
+    {
+        padding-bottom:0%;
+    /*  background-color:green;     /* DEBUG */
+    }
 	/* Mise en Forme Exp, Formation & Recommandations END */
 
 	/* Mise en page Bas de page responsive START */
@@ -772,6 +808,12 @@ footer
 	/* Mise en page génerale END */
 	
 	/*Mise en forme Présentation START */
+    
+    .Apropos
+    {
+        margin-bottom:40%;
+    }
+    
 	.Loisirs
 	{
 		display:none;
@@ -965,6 +1007,12 @@ footer
 	/* Mise en page génerale END */
 	
 	/*Mise en forme Présentation START */
+    
+    .Apropos
+    {
+        margin-bottom:30%;
+    }
+    
 	.Loisirs
 	{
 		display:none;
@@ -1167,6 +1215,12 @@ footer
 	/* Mise en page génerale END */
 	
 	/*Mise en forme Présentation START */
+    
+    .Apropos
+    {
+        margin-bottom:30%;
+    }
+    
 	.Loisirs
 	{
 		display:none;
@@ -1364,6 +1418,12 @@ footer
 	/* Mise en page génerale END */
 	
 	/*Mise en forme Présentation START */
+    
+    .Apropos
+    {
+        margin-bottom:30%;
+    }
+    
 	.Loisirs
 	{
 		display:none;
