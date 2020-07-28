@@ -1,0 +1,26 @@
+-------------------------
+V 1.1 [Release-Candidate]
+-------------------------
+
+	- Ce code est stable et fonctionnel, cependant quelques défaut d'affichage peuvent encore être présents.
+    
+	- Le code [HTML/CSS] à été réordonnée pour une meilleur lisibilitée.
+	
+	- Le code de décoration (.Deco) à été optimisé.
+    
+	- Paramétrages "Media Queries" optimisés.
+	
+	- Interface PC optimisé.
+    
+-------------------------
+    
+	
+	- This code is stable and functional, however some display faults may still be present.
+	
+	- The code [HTML/CSS] has been reordered for better readability.
+    
+	- The decoration code (.Deco) has been optimized.
+    
+	- Optimized "Media Queries" settings.
+	
+	- Optimized PC interface.
