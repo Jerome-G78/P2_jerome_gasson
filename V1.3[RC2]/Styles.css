@@ -1,0 +1,1695 @@
+/* Mise en page */
+
+@font-face 
+{
+    font-family: 'Hind';
+    src: url('fonts/Hind/Hind-Regular.woff') format('woff');
+}
+
+body
+{
+	font-family:Hind;
+/*    font-size: 16px;
+	/* RESET*/
+	margin:0; 
+	padding:0;
+}
+
+/* Conteneur */
+
+.Flex
+{
+	display:flex;
+	justify-content:center;
+    align-items:center;
+	flex-wrap:wrap;
+/*	border:1px solid black; /* DEBUG */
+}
+
+/* Elements du conteneur */
+
+#Presentation
+{
+	width:25em;
+	background-color:#f8c906;   /* Jaune Foncé */
+/*	border:1px solid black;     /* DEBUG */
+}
+
+#PER
+{
+	width:53.9em;
+/*	background-color:green;	    /* DEBUG */
+/*	border:1px solid black;     /* DEBUG */
+}
+
+/* Mise en forme Présentation START */
+
+.MaPhoto img
+{
+	display:block;
+	margin:auto;
+	margin-top:4em;
+	width:15em;
+	height:15em;
+}
+
+.RoundedImage /* Arondissement d'image avec ombrage */
+{
+	overflow:hidden;
+	-moz-border-radius:50%;                 /* Paramètre de compatibilité : Mozilla */
+	-webkit-border-radius:50%;              /* Paramètre de compatibilité : Chrome / Chromium */
+	-o-border-radius:50%;                   /* Paramètre de compatibilité : Opera */
+	border-radius:50%;
+	box-shadow:0px 0px 0px 0.3em #c5a01b;   /* décalage d'ombrage et profondeur */
+}
+
+#Presentation h3
+{
+	font-size:1.875em;
+	text-transform:uppercase;
+	text-align:center;
+    
+	color:#f8c906;              /* Jaune Foncé */
+	background-color:#404040;   /* Gris Foncé */
+}
+
+#Presentation p
+{
+	text-align:justify;
+	margin:0 0.3em;
+}
+
+.Contact p, .Apropos p
+{
+    font-size:0.9em;
+   	padding: 0 3em;
+   	word-wrap: break-word;
+   /*	background-color:grey;      /* DEBUG */
+}
+
+.Apropos
+{
+	position: relative;
+	margin-bottom:1.250em;
+}
+
+.Loisirs
+{
+	padding-top:45em;
+    padding-bottom:1em;
+}
+
+.Loisirs img
+{
+	width:3em; /* 12% */
+	padding:1% 1%;
+	padding-left:2%;
+	margin-left:5%;
+	margin-right:5%;
+	opacity:0.8;
+}
+
+.RoundedImage-L
+{
+	overflow:hidden;
+    -moz-border-radius:50%;                 /* Paramètre de compatibilité : Mozilla */
+	-webkit-border-radius:50%;              /* Paramètre de compatibilité : Chrome / Chromium */
+	-o-border-radius:50%;                   /* Paramètre de compatibilité : Opera */
+	border-radius:50%;
+	box-shadow:0px 0px 0px 0.1em #404040;
+}
+
+a
+{
+	text-decoration:none;
+	color:black;
+}
+
+.Loisirs-Align
+{
+    display:block;
+    text-align:center;
+ /*	background-color:grey;      /* DEBUG */
+}
+
+/*Mise en forme Présentation END */
+
+/* Mise en Forme Exp, Formation & Recommandations START */
+
+.Deco hr
+{
+    width: 4em;
+	color:#f8c906;                  /* Jaune Foncé */
+	margin-top:-0.5em;
+	margin-bottom:8.5em;            /* Décalage de l'en-tête */
+	margin-left:2.4em;
+    border: 0.1em solid #f8c906;    /* Jaune Foncé */
+}
+
+#PER h1
+{
+	font-size:52px;
+	color:#4a4a4a;
+	
+	padding-left:0.7em;     /* 5% */
+	padding-bottom:0;
+	margin-top:1.6em;      /* 12% */
+	margin-bottom:0;
+}
+
+#PER h2
+{
+	font-size:24px;
+	color:#6b6b6b;
+	
+	padding-left:1.5em;
+	padding-top:0;
+	margin-top:0;
+	margin-bottom:0%;
+}
+
+.NameColor
+{
+	color:#f8c906;              /* Jaune Foncé */
+	text-transform:uppercase;
+}
+
+.IcoColor
+{
+	color:#f8c906;              /* Jaune Foncé */
+}
+
+#Formations h3, #Parcours h3, #Recommandations h3
+{
+	font-size:2em;
+    text-transform:uppercase;
+    
+	padding-left:1.2em;     /* 5% */
+	margin-bottom:0.2em;    /* 1% */
+    margin-top:0;
+
+/*  background-color: grey;     /* DEBUG */
+/*  border: 1px solid black;    /* DEBUG */
+}
+
+#Space
+{
+    margin: 0.5em;
+/*  border: 1px solid black;    /* DEBUG */
+}
+
+#Space-S
+{
+    padding: 4.2em 0;
+/*  background-color: grey; /* DEBUG */ 
+}
+
+#Formations hr, #Parcours hr, #Recommandations hr
+{
+	color:#f8c906; /* Jaune Foncé */
+    
+	margin-left:2.4em;
+	margin-right:2.4em;
+    border: 1px solid #f8c906; /* Jaune Foncé */
+}
+
+#Formations h4, #Parcours h4
+{
+	font-size:1.250em;
+	text-transform:uppercase;
+}
+
+#Formations h5, #Parcours h5
+{
+	font-size:1em;
+}
+
+.Circle-1
+{
+    font-size:14px;
+	color:#f8c906;      /* Jaune Foncé */
+    
+	padding-top:1.250em;
+	padding-left:3em; /* 5% */
+	float:left;
+}
+
+.Circle-2
+{
+    font-size:12px;
+	color:#f8c906;      /* Jaune Foncé */
+    
+	padding-top:1.550em;
+	padding-left:3.490em;
+	float:left;
+}
+
+.Left /* Dates */
+{
+	width:10.625em;
+	height:2.5em;
+    
+	padding-left:1.250em;
+	padding-right:1.250em;
+	padding-bottom:3.750em;
+    margin-left:1.250em;
+	float:left;
+/*	background-color:grey; /* DEBUG */
+}
+
+.Right /* Details */
+{
+	padding:0.063em;
+	margin-top:0.125em;
+	margin-left:18.750em;
+/*	background-color:green; /* DEBUG */
+}
+
+#Recommandations
+{
+/*	border:1px solid black; /* DEBUG */
+/*	background-color:green; /* DEBUG */
+}
+
+#Recommandations p
+{
+	margin-top:-1.6em;
+/*	border:1px solid black; /* DEBUG */
+/*	background-color:grey;  /* DEBUG */
+}
+
+#Recommandations h4
+{
+	font-size:1.250em;
+	text-transform:uppercase;
+/*	border:1px solid black; /* DEBUG */
+}
+
+.Left-R
+{
+	margin-top:0;
+	margin-left:2.5em;
+	float:left;
+/*	border:1px solid black; /* DEBUG */
+
+}
+
+.Right-R
+{
+	margin-left:14em;
+	float:left;
+/*	border:1px solid black; /* DEBUG */
+}
+
+/* Mise en Forme Exp et Formation END */
+
+/* Pied de page */
+
+footer
+{
+	background-color:#2196F3;           /* Bleu ciel*/
+	text-align:center;
+	padding:20%; 
+}
+
+@media screen and (min-width:1280px) and (orientation: landscape)                           /* 80em - Grand Ecran FHD+ */
+{
+    
+	#Responsive-Presentation
+	{
+		display:none;
+	}
+	
+	footer
+	{
+		display:none;
+	}
+}
+
+@media screen and (min-width:1080px) and (max-width:1279px) and (orientation: landscape)    /* 68em - Ecran HD */
+{
+    /* Elements du conteneur */
+    
+    #Presentation
+    {
+    	width:25em;
+    /*	border:1px solid black;     /* DEBUG */
+    }
+
+    #PER
+    {
+    	width:41.39em;
+    /*	background-color:green;	    /* DEBUG */
+    /*	border:1px solid black;     /* DEBUG */
+    }
+    
+    /* Mise en forme Présentation START */
+    
+    .Contact
+    {
+        margin-bottom: 0;
+    /*  margin-top: 0 ; */
+        padding-bottom: 0 ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+    .Apropos
+    {
+        margin-bottom: 0;
+        margin-top: 0em ;
+        padding-bottom: 1em ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+
+    .Loisirs
+    {
+        margin-bottom: 0;
+        margin-top: -0.8em ;
+        padding-bottom: 1em ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+    
+    .Contact p, .Apropos p
+    {
+        font-size:0.9em;
+    /*	background-color:grey;      /* DEBUG */
+    }
+    /* Mise en forme Présentation END */
+    
+    /* Mise en Forme Exp et Formation START */
+    
+    .Deco hr
+    {
+        width: 4em;
+        margin-top:-0.5em;
+        margin-bottom:8.5em;            /* Décalage de l'en-tête */
+        margin-left:2.4em;
+    }
+    #Space-S
+    {
+        padding: 5.4em 0;
+    /*  background-color: grey; /* DEBUG */ 
+    }
+    
+    #Formations p, #Parcours p, #Recommandations p
+    {
+        font-size:0.8em;
+    }
+    
+    /* Mise en Forme Exp et Formation END */
+    
+    /* Pied de page */
+    #Responsive-Presentation
+    {
+        display: none;
+    }
+    
+	footer
+	{
+		display:none;
+	}
+	
+
+}
+@media screen and (min-width:801px) and (max-width:1079px) and (orientation: landscape)     /* 49em - Tablette */
+{
+    /* Elements du conteneur */
+
+    .Flex
+    {
+        flex-direction:column;
+    /*	border:1px solid black; /* DEBUG */
+    }
+    
+    #Presentation
+    {
+    	width:49em;
+    /*	border:1px solid black;     /* DEBUG */
+    }
+
+    #PER
+    {
+    	width:49em;
+    /*	background-color:green;	    /* DEBUG */
+    /*	border:1px solid black;     /* DEBUG */
+    }
+    
+    /* Mise en forme Présentation START */
+    
+    .Contact
+    {
+        margin-bottom: 0;
+    /*  margin-top: 0 ; */
+        padding-bottom: 0 ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+    .Apropos
+    {
+        margin-bottom: 0;
+        margin-top: 0em ;
+        padding-bottom: 1.7em ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+
+    .Loisirs
+    {
+        display: none ;
+    }
+    
+    .Contact p, .Apropos p
+    {
+        font-size:1.5em;
+    /*	background-color:grey;      /* DEBUG */
+    }
+    /* Mise en forme Présentation END */
+    
+    /* Mise en Forme Exp et Formation START */
+    
+    .Deco hr
+    {
+        width: 4em;
+        margin-top:-0.5em;
+        margin-bottom:8.5em;            /* Décalage de l'en-tête */
+        margin-left:2.4em;
+    }
+    #Space-S
+    {
+        padding: 5.4em 0;
+    /*  background-color: grey; /* DEBUG */ 
+    }
+    
+    #Formations p, #Parcours p, #Recommandations p
+    {
+        font-size:1em;
+    }
+    
+    .Right /* Details */
+    {
+        padding:0 0.1em;
+        margin-top:0.125em;
+        margin-left:18.750em;
+        margin-right:2.5em;
+    	background-color:green;     /* DEBUG */
+        border:0.1em solid black;   /* DEBUG */
+    }
+    /* Mise en Forme Exp et Formation END */
+    
+    /* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+        font-size:1.875em;
+        text-transform:uppercase;
+        text-align:center;
+        color:#f8c906;              /* Jaune Foncé */
+    
+        background-color:#404040;   /* Gris Foncé */
+	
+        padding-top:0%;
+        padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+        display:block;
+		text-align:center;
+        
+		padding-top:0em;
+		padding-bottom:0em;
+	/*	background-color:grey;  /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:5em;
+		padding:1% 1%;
+		margin:0% 5%;
+        
+		opacity:0.8;
+	}
+	
+    /* Mise en page Bas de page responsive END */
+    
+    /* Pied de page */
+    
+	footer
+	{
+		display:none;
+	}
+	
+
+}
+
+@media screen and (min-width:801px) and (max-width:1079px) and (orientation: portrait)      /* 49em - Tablette */
+{
+    /* Elements du conteneur */
+
+    .Flex
+    {
+        flex-direction:column;
+    /*	border:1px solid black; /* DEBUG */
+    }
+    
+    #Presentation
+    {
+    	width:49em;
+    /*	border:1px solid black;     /* DEBUG */
+    }
+
+    #PER
+    {
+    	width:49em;
+    /*	background-color:green;	    /* DEBUG */
+    /*	border:1px solid black;     /* DEBUG */
+    }
+    
+    /* Mise en forme Présentation START */
+    
+    .Contact
+    {
+        margin-bottom: 0;
+    /*  margin-top: 0 ; */
+        padding-bottom: 0 ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+    .Apropos
+    {
+        margin-bottom: 0;
+        margin-top: 0em ;
+        padding-bottom: 1.7em ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+
+    .Loisirs
+    {
+        display: none ;
+    }
+    
+    .Contact p, .Apropos p
+    {
+        font-size:1.5em;
+    /*	background-color:grey;      /* DEBUG */
+    }
+    /* Mise en forme Présentation END */
+    
+    /* Mise en Forme Exp et Formation START */
+    
+    .Deco hr
+    {
+        width: 4em;
+        margin-top:-0.5em;
+        margin-bottom:8.5em;            /* Décalage de l'en-tête */
+        margin-left:2.4em;
+    }
+    #Space-S
+    {
+        padding: 5.4em 0;
+    /*  background-color: grey; /* DEBUG */ 
+    }
+    
+    #Formations p, #Parcours p, #Recommandations p
+    {
+        font-size:1em;
+    }
+    
+    .Right /* Details */
+    {
+        padding:0 0.1em;
+        margin-top:0.125em;
+        margin-left:18.750em;
+        margin-right:2.5em;
+    	background-color:green;     /* DEBUG */
+        border:0.1em solid black;   /* DEBUG */
+    }
+    /* Mise en Forme Exp et Formation END */
+    
+    /* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+        font-size:1.875em;
+        text-transform:uppercase;
+        text-align:center;
+        color:#f8c906;              /* Jaune Foncé */
+    
+        background-color:#404040;   /* Gris Foncé */
+	
+        padding-top:0%;
+        padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+        display:block;
+		text-align:center;
+        
+		padding-top:0em;
+		padding-bottom:0em;
+	/*	background-color:grey;  /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:5em;
+		padding:1% 1%;
+		margin:0% 5%;
+        
+		opacity:0.8;
+	}
+	
+    /* Mise en page Bas de page responsive END */
+    
+    /* Pied de page */
+    
+	footer
+	{
+		display:none;
+	}
+	
+
+}
+
+@media screen and (min-width:600px) and (max-width:800px) and (orientation: landscape)      /* 38em - Tablette */
+{
+    /* Elements du conteneur */
+    
+    #Presentation
+    {
+    	width:38em;
+    /*	border:1px solid black;     /* DEBUG */
+    }
+
+    #PER
+    {
+    	width:38em;
+    /*	background-color:green;	    /* DEBUG */
+    /*	border:1px solid black;     /* DEBUG */
+    }
+    
+    /* Mise en forme Présentation START */
+    
+    .Contact
+    {
+        margin-bottom: 0;
+    /*  margin-top: 0 ; */
+        padding-bottom: 0 ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+    .Apropos
+    {
+        margin-bottom: 0;
+        margin-top: 0em ;
+        padding-bottom: 1.7em ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+
+    .Loisirs
+    {
+        display: none ;
+    }
+    
+    .Contact p, .Apropos p
+    {
+        font-size:1.5em;
+    /*	background-color:grey;      /* DEBUG */
+    }
+    /* Mise en forme Présentation END */
+    
+    /* Mise en Forme Exp et Formation START */
+    
+    .Deco hr
+    {
+        width: 4em;
+        margin-top:-0.5em;
+        margin-bottom:8.5em;            /* Décalage de l'en-tête */
+        margin-left:2.4em;
+    }
+    #Space-S
+    {
+        padding: 5.4em 0;
+    /*  background-color: grey; /* DEBUG */ 
+    }
+    
+    #Formations p, #Parcours p, #Recommandations p
+    {
+        font-size:0.88em;
+    }
+    
+    .Left /* Dates */
+    {
+        width:5.2em;
+        height:2.5em;
+        
+        padding-left:1.250em;
+        padding-right:1.250em;
+        padding-bottom:3.750em;
+        margin-left:1.250em;
+        float:left;
+    /*	background-color:grey; /* DEBUG */
+    }
+    
+    .Right /* Details */
+    {
+        padding:0 0.1em;
+        margin-top:0.125em;
+        margin-left:12.6em;
+        margin-right:2.5em;
+    /*	background-color:green;     /* DEBUG */
+    }
+    
+    /* Mise en Forme Exp et Formation END */
+    
+    /* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+        width:38em;
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+        font-size:1.875em;
+        text-transform:uppercase;
+        text-align:center;
+        color:#f8c906;              /* Jaune Foncé */
+    
+        background-color:#404040;   /* Gris Foncé */
+	
+        padding-top:0%;
+        padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+        display:block;
+		text-align:center;
+        
+		padding-top:0em;
+		padding-bottom:0em;
+	/*	background-color:grey;  /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:5em;
+		padding:1% 1%;
+		margin:0% 5%;
+        
+		opacity:0.8;
+	}
+	
+    .Right-R
+    {
+        margin-left:2.5em;
+        clear:left;
+    /*	border:1px solid black; /* DEBUG */
+    }
+    /* Mise en page Bas de page responsive END */
+    
+    /* Pied de page */
+    
+	footer
+	{
+		display:none;
+	}
+    
+}
+
+@media screen and (min-width:600px) and (max-width:800px) and (orientation: portrait)       /* 38em - Tablette */
+{
+    /* Elements du conteneur */
+    
+    #Presentation
+    {
+    	width:38em;
+    /*	border:1px solid black;     /* DEBUG */
+    }
+
+    #PER
+    {
+    	width:38em;
+    /*	background-color:green;	    /* DEBUG */
+    /*	border:1px solid black;     /* DEBUG */
+    }
+    
+    /* Mise en forme Présentation START */
+    
+    .Contact
+    {
+        margin-bottom: 0;
+    /*  margin-top: 0 ; */
+        padding-bottom: 0 ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+    .Apropos
+    {
+        margin-bottom: 0;
+        margin-top: 0em ;
+        padding-bottom: 1.7em ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+
+    .Loisirs
+    {
+        display: none ;
+    }
+    
+    .Contact p, .Apropos p
+    {
+        font-size:1.5em;
+    /*	background-color:grey;      /* DEBUG */
+    }
+    /* Mise en forme Présentation END */
+    
+    /* Mise en Forme Exp et Formation START */
+    
+    .Deco hr
+    {
+        width: 4em;
+        margin-top:-0.5em;
+        margin-bottom:8.5em;            /* Décalage de l'en-tête */
+        margin-left:2.4em;
+    }
+    #Space-S
+    {
+        padding: 5.4em 0;
+    /*  background-color: grey; /* DEBUG */ 
+    }
+    
+    #Formations p, #Parcours p, #Recommandations p
+    {
+        font-size:0.88em;
+    }
+    
+    .Left /* Dates */
+    {
+        width:5.2em;
+        height:2.5em;
+        
+        padding-left:1.250em;
+        padding-right:1.250em;
+        padding-bottom:3.750em;
+        margin-left:1.250em;
+        float:left;
+    /*	background-color:grey; /* DEBUG */
+    }
+    
+    .Right /* Details */
+    {
+        padding:0 0.1em;
+        margin-top:0.125em;
+        margin-left:12.6em;
+        margin-right:2.5em;
+    /*	background-color:green;     /* DEBUG */
+    }
+    
+    /* Mise en Forme Exp et Formation END */
+    
+    /* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+        width:38em;
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+        font-size:1.875em;
+        text-transform:uppercase;
+        text-align:center;
+        color:#f8c906;              /* Jaune Foncé */
+    
+        background-color:#404040;   /* Gris Foncé */
+	
+        padding-top:0%;
+        padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+        display:block;
+		text-align:center;
+        
+		padding-top:0em;
+		padding-bottom:0em;
+	/*	background-color:grey;  /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:5em;
+		padding:1% 1%;
+		margin:0% 5%;
+        
+		opacity:0.8;
+	}
+	
+    .Right-R
+    {
+        margin-left:2.5em;
+        clear:left;
+    /*	border:1px solid black; /* DEBUG */
+    }
+    /* Mise en page Bas de page responsive END */
+    
+    /* Pied de page */
+    
+	footer
+	{
+		display:none;
+	}
+    
+}
+
+@media screen and (min-width:480px) and (max-width:599px) and (orientation: landscape)      /* 30em - Mobiles */
+{
+    /* Elements du conteneur */
+    
+    #Presentation
+    {
+    	width:30em;
+    /*	border:1px solid black;     /* DEBUG */
+    }
+
+    #PER
+    {
+    	width:30em;
+    /*	background-color:green;	    /* DEBUG */
+    /*	border:1px solid black;     /* DEBUG */
+    }
+    
+    /* Mise en forme Présentation START */
+    
+    .Contact
+    {
+        margin-bottom: 0;
+    /*  margin-top: 0 ; */
+        padding-bottom: 0 ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+    .Apropos
+    {
+        margin-bottom: 0;
+        margin-top: 0em ;
+        padding-bottom: 1.7em ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+
+    .Loisirs
+    {
+        display: none ;
+    }
+    
+    .Contact p, .Apropos p
+    {
+        font-size:1.5em;
+    /*	background-color:grey;      /* DEBUG */
+    }
+    /* Mise en forme Présentation END */
+    
+    /* Mise en Forme Exp et Formation START */
+    
+    .Deco hr
+    {
+        width: 4em;
+        margin-top:-0.5em;
+        margin-bottom:8.5em;            /* Décalage de l'en-tête */
+        margin-left:2.4em;
+    }
+    #Space-S
+    {
+        padding: 5.4em 0;
+    /*  background-color: grey; /* DEBUG */ 
+    }
+    
+    #Formations h3, #Parcours h3, #Recommandations h3
+    {
+        font-size:1.58em;
+        padding-left:1.2em;     /* 5% */
+    
+    /*  background-color: grey;     /* DEBUG */
+    /*  border: 1px solid black;    /* DEBUG */
+    }
+    
+    #Formations hr, #Parcours hr, #Recommandations hr
+    {        
+        margin:0 1.8em;
+    }
+    #Formations p, #Parcours p, #Recommandations p
+    {
+        font-size:0.88em;
+    }
+    
+    #Formations p, #Parcours p, #Recommandations p
+    {
+        font-size:0.88em;
+    }
+    
+    .Left /* Dates */
+    {
+        width:5.2em;
+        height:2.5em;
+        
+        padding-left:1.250em;
+        padding-right:1.250em;
+        padding-bottom:3.750em;
+        margin-left:1.250em;
+        float:left;
+    /*	background-color:grey; /* DEBUG */
+    }
+    
+    .Right /* Details */
+    {
+        padding:0 0.1em;
+        margin-top:0.125em;
+        margin-left:12.6em;
+        margin-right:2.5em;
+    /*	background-color:green;     /* DEBUG */
+    }
+    
+    /* Mise en Forme Exp et Formation END */
+    
+    /* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+        width:30em;
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+        font-size:1.875em;
+        text-transform:uppercase;
+        text-align:center;
+        color:#f8c906;              /* Jaune Foncé */
+    
+        background-color:#404040;   /* Gris Foncé */
+	
+        padding-top:0%;
+        padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+        display:block;
+		text-align:center;
+        
+		padding-top:0em;
+		padding-bottom:0em;
+	/*	background-color:grey;  /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:5em;
+		padding:1% 1%;
+		margin:0% 5%;
+        
+		opacity:0.8;
+	}
+	
+    .Right-R
+    {
+        margin-left:2.5em;
+        clear:left;
+    /*	border:1px solid black; /* DEBUG */
+    }
+    /* Mise en page Bas de page responsive END */
+    
+    /* Pied de page */
+    
+	footer
+	{
+		display:none;
+	}
+	
+
+}
+
+@media screen and (min-width:480px) and (max-width:599px) and (orientation: portrait)       /* 30em - Mobiles */
+{
+    /* Elements du conteneur */
+    
+    #Presentation
+    {
+    	width:30em;
+    /*	border:1px solid black;     /* DEBUG */
+    }
+
+    #PER
+    {
+    	width:30em;
+    /*	background-color:green;	    /* DEBUG */
+    /*	border:1px solid black;     /* DEBUG */
+    }
+    
+    /* Mise en forme Présentation START */
+    
+    .Contact
+    {
+        margin-bottom: 0;
+    /*  margin-top: 0 ; */
+        padding-bottom: 0 ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+    .Apropos
+    {
+        margin-bottom: 0;
+        margin-top: 0em ;
+        padding-bottom: 1.7em ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+
+    .Loisirs
+    {
+        display: none ;
+    }
+    
+    .Contact p, .Apropos p
+    {
+        font-size:1.5em;
+    /*	background-color:grey;      /* DEBUG */
+    }
+    /* Mise en forme Présentation END */
+    
+    /* Mise en Forme Exp et Formation START */
+    
+    .Deco hr
+    {
+        width: 4em;
+        margin-top:-0.5em;
+        margin-bottom:8.5em;            /* Décalage de l'en-tête */
+        margin-left:2.4em;
+    }
+    
+    #Space-S
+    {
+        padding: 5.4em 0;
+    /*  background-color: grey; /* DEBUG */ 
+    }
+    
+    #Formations h3, #Parcours h3, #Recommandations h3
+    {
+        font-size:1.58em;
+        padding-left:1.2em;     /* 5% */
+    
+    /*  background-color: grey;     /* DEBUG */
+    /*  border: 1px solid black;    /* DEBUG */
+    }
+    
+    #Formations hr, #Parcours hr, #Recommandations hr
+    {        
+        margin:0 1.8em;
+    }
+    #Formations p, #Parcours p, #Recommandations p
+    {
+        font-size:0.88em;
+    }
+    
+    .Left /* Dates */
+    {
+        width:5.2em;
+        height:2.5em;
+        
+        padding-left:1.250em;
+        padding-right:1.250em;
+        padding-bottom:3.750em;
+        margin-left:1.250em;
+        float:left;
+    /*	background-color:grey; /* DEBUG */
+    }
+    
+    .Right /* Details */
+    {
+        padding:0 0.1em;
+        margin-top:0.125em;
+        margin-left:12.6em;
+        margin-right:2.5em;
+    /*	background-color:green;     /* DEBUG */
+    }
+    
+    /* Mise en Forme Exp et Formation END */
+    
+    /* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+        width:30em;
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+        font-size:1.875em;
+        text-transform:uppercase;
+        text-align:center;
+        color:#f8c906;              /* Jaune Foncé */
+    
+        background-color:#404040;   /* Gris Foncé */
+	
+        padding-top:0%;
+        padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+        display:block;
+		text-align:center;
+        
+		padding-top:0em;
+		padding-bottom:0em;
+	/*	background-color:grey;  /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:5em;
+		padding:1% 1%;
+		margin:0% 5%;
+        
+		opacity:0.8;
+	}
+	
+    .Right-R
+    {
+        margin-left:2.5em;
+        clear:left;
+    /*	border:1px solid black; /* DEBUG */
+    }
+    /* Mise en page Bas de page responsive END */
+    
+    /* Pied de page */
+    
+	footer
+	{
+		display:none;
+	}
+}
+
+@media screen and (min-width:360px) and (max-width:479px) and (orientation: portrait)       /* 23em - Mobiles */
+{
+    /* Elements du conteneur */
+    
+    #Presentation
+    {
+    	width:23em;
+    /*	border:1px solid black;     /* DEBUG */
+    }
+
+    #PER
+    {
+    	width:23em;
+    /*	background-color:green;	    /* DEBUG */
+    /*	border:1px solid black;     /* DEBUG */
+    }
+    
+    /* Mise en forme Présentation START */
+    
+    .Contact
+    {
+        margin-bottom: 0;
+    /*  margin-top: 0 ; */
+        padding-bottom: 0 ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+    .Apropos
+    {
+        margin-bottom: 0;
+        margin-top: 0em ;
+        padding-bottom: 1.7em ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+
+    .Loisirs
+    {
+        display: none ;
+    }
+    
+    .Contact p, .Apropos p
+    {
+        font-size:1.2em;
+    /*	background-color:grey;      /* DEBUG */
+    }
+    /* Mise en forme Présentation END */
+    
+    /* Mise en Forme Exp et Formation START */
+    
+    #PER h1
+    {
+        font-size:36px;
+        padding-left:0.5em;     /* 5% */
+        padding-bottom:0;
+    }
+    
+    #PER h2
+    {
+        font-size:20px;
+        padding-left:0.9em;
+        margin-bottom:0%;
+    }
+    
+    .Deco hr
+    {
+        width: 3em;
+        margin-left:1.2em;
+    }
+    
+    #Space-S
+    {
+        padding: 5.4em 0;
+    /*  background-color: grey; /* DEBUG */ 
+    }
+    
+    #Formations h3, #Parcours h3, #Recommandations h3
+    {
+        font-size:1.2em;
+        padding-left:1.2em;     /* 5% */
+    
+    /*  background-color: grey;     /* DEBUG */
+    /*  border: 1px solid black;    /* DEBUG */
+    }
+    
+    #Space
+    {
+        margin: 0.4em;
+    /*  border: 1px solid black;    /* DEBUG */
+    }
+    
+    #Formations hr, #Parcours hr, #Recommandations hr
+    {        
+        margin:0 1.4em;
+    }
+    #Formations h4, #Parcours h4
+    {
+        font-size:1.1em;
+        text-transform:uppercase;
+    }
+    
+    #Formations h5, #Parcours h5
+    {
+        font-size:1em;
+    }
+    
+    #Formations p, #Parcours p, #Recommandations p
+    {
+        font-size:1em;
+    }
+    
+    .Left /* Dates */
+    {
+        width:11em;
+        height:0.5em;
+        
+        padding-left:1.250em;
+        padding-right:1.250em;
+        padding-bottom:3.750em;
+        margin-left:1.250em;
+        float:left;
+    /*	background-color:grey; /* DEBUG */
+    }
+    
+    .Right /* Details */
+    {
+        padding:0 0.1em;
+        padding-top:4em;
+        margin-top:0.125em;
+        margin-left:4em;
+        margin-right:2.5em;
+    /*	background-color:green;     /* DEBUG */
+    }
+    
+    /* Mise en Forme Exp et Formation END */
+    
+    /* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+        width:23em;
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+        font-size:1.875em;
+        text-transform:uppercase;
+        text-align:center;
+        color:#f8c906;              /* Jaune Foncé */
+    
+        background-color:#404040;   /* Gris Foncé */
+	
+        padding-top:0%;
+        padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+        display:block;
+		text-align:center;
+        
+		padding-top:0em;
+		padding-bottom:0em;
+	/*	background-color:grey;  /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:4em;
+		padding:1% 1%;
+		margin:0% 5%;
+        
+		opacity:0.8;
+	}
+	
+    .Right-R
+    {
+        margin-left:2.5em;
+        clear:left;
+    /*	border:1px solid black; /* DEBUG */
+    }
+    /* Mise en page Bas de page responsive END */
+    
+    /* Pied de page */
+    
+	footer
+	{
+		display:none;
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:359px) and (orientation: portrait)       /* 20em - Mobiles */
+{
+    /* Elements du conteneur */
+    
+    #Presentation
+    {
+    	width:20em;
+    /*	border:1px solid black;     /* DEBUG */
+    }
+
+    #PER
+    {
+    	width:20em;
+    /*	background-color:green;	    /* DEBUG */
+    /*	border:1px solid black;     /* DEBUG */
+    }
+    
+    /* Mise en forme Présentation START */
+    
+    .Contact
+    {
+        margin-bottom: 0;
+    /*  margin-top: 0 ; */
+        padding-bottom: 0 ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+    .Apropos
+    {
+        margin-bottom: 0;
+        margin-top: 0em ;
+        padding-bottom: 1.7em ;
+    /*  border: 0.1em solid black;  /* DEBUG */
+    }
+
+    .Loisirs
+    {
+        display: none ;
+    }
+    
+    .Contact p, .Apropos p
+    {
+        font-size:1em;
+    /*	background-color:grey;      /* DEBUG */
+    }
+    /* Mise en forme Présentation END */
+    
+    /* Mise en Forme Exp et Formation START */
+    
+    #PER h1
+    {
+        font-size:36px;
+        padding-left:0.5em;     /* 5% */
+        padding-bottom:0;
+    }
+    
+    #PER h2
+    {
+        font-size:20px;
+        padding-left:0.9em;
+        margin-bottom:0%;
+    }
+    
+    .Deco hr
+    {
+        width: 3.3em;
+        margin-left:1.2em;
+    }
+    
+    #Space-S
+    {
+        padding: 5.4em 0;
+    /*  background-color: grey; /* DEBUG */ 
+    }
+    
+    #Formations h3, #Parcours h3, #Recommandations h3
+    {
+        font-size:1em;
+        padding-left:1.2em;     /* 5% */
+    
+    /*  background-color: grey;     /* DEBUG */
+    /*  border: 1px solid black;    /* DEBUG */
+    }
+    
+    #Space
+    {
+        margin: 0.3em;
+    /*  border: 1px solid black;    /* DEBUG */
+    }
+    
+    #Formations hr, #Parcours hr, #Recommandations hr
+    {        
+        margin:0 1.07em;
+    }
+    #Formations h4, #Parcours h4
+    {
+        font-size:0.8em;
+        text-transform:uppercase;
+    }
+    
+    #Formations h5, #Parcours h5
+    {
+        font-size:0.75em;
+    }
+    
+    #Formations p, #Parcours p, #Recommandations p
+    {
+        font-size:0.8em;
+    }
+    
+    .Left /* Dates */
+    {
+        width:9.8em;
+        height:0.5em;
+        
+        padding-left:1.250em;
+        padding-right:1.250em;
+        padding-bottom:3.750em;
+        margin-left:1.250em;
+        float:left;
+    /*	background-color:grey; /* DEBUG */
+    }
+    
+    .Right /* Details */
+    {
+        padding:0 0.1em;
+        padding-top:4em;
+        margin-top:0.125em;
+        margin-left:4em;
+        margin-right:2.5em;
+    /*	background-color:green;     /* DEBUG */
+    }
+    
+    /* Mise en Forme Exp et Formation END */
+    
+    /* Mise en page Bas de page responsive START */
+	#Responsive-Presentation
+	{
+        width:20em;
+		background-color:#f8c906; /* Jaune Foncé */
+	}
+	
+	#Responsive-Presentation h3
+	{
+        font-size:1.875em;
+        text-transform:uppercase;
+        text-align:center;
+        color:#f8c906;              /* Jaune Foncé */
+    
+        background-color:#404040;   /* Gris Foncé */
+	
+        padding-top:0%;
+        padding-bottom:0%;
+	}
+	
+	.Responsive-Loisirs-Align
+	{
+        display:block;
+		text-align:center;
+        
+		padding-top:0em;
+		padding-bottom:0em;
+	/*	background-color:grey;  /* DEBUG */
+	}
+	
+	.Responsive-Loisirs-Align img
+	{
+		width:3em;
+		padding:1% 1%;
+		margin:0% 5%;
+        
+		opacity:0.8;
+	}
+	
+    .Right-R
+    {
+        margin-left:2.5em;
+        clear:left;
+    /*	border:1px solid black; /* DEBUG */
+    }
+    /* Mise en page Bas de page responsive END */
+    
+    /* Pied de page */
+    
+	footer
+	{
+		display:none;
+	}
+}
+@media screen and (max-width:319px) /* Appareils Obsolètes */
+{
+    body
+	{
+        background-color:#2196F3; /* Bleu ciel*/
+	}
+    
+	#Responsive-Presentation
+	{
+		display:none;
+	}
+	
+	footer img
+	{
+		width:50%;
+		height:50%;
+		opacity:0.8;
+	}
+	
+	#Formation, section, .Flex
+	{
+        display:none;
+	}
+}
