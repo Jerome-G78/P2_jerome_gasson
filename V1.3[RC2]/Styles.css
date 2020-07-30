@@ -192,13 +192,13 @@ a
 /*  border: 1px solid black;    /* DEBUG */
 }
 
-#Space
+.Space
 {
     margin: 0.5em;
 /*  border: 1px solid black;    /* DEBUG */
 }
 
-#Space-S
+.Space-S
 {
     padding: 4.2em 0;
 /*  background-color: grey; /* DEBUG */ 
@@ -384,7 +384,7 @@ footer
         margin-bottom:8.5em;            /* Décalage de l'en-tête */
         margin-left:2.4em;
     }
-    #Space-S
+    .Space-S
     {
         padding: 5.4em 0;
     /*  background-color: grey; /* DEBUG */ 
@@ -471,7 +471,7 @@ footer
         margin-bottom:8.5em;            /* Décalage de l'en-tête */
         margin-left:2.4em;
     }
-    #Space-S
+    .Space-S
     {
         padding: 5.4em 0;
     /*  background-color: grey; /* DEBUG */ 
@@ -604,7 +604,7 @@ footer
         margin-bottom:8.5em;            /* Décalage de l'en-tête */
         margin-left:2.4em;
     }
-    #Space-S
+    .Space-S
     {
         padding: 5.4em 0;
     /*  background-color: grey; /* DEBUG */ 
@@ -731,7 +731,7 @@ footer
         margin-bottom:8.5em;            /* Décalage de l'en-tête */
         margin-left:2.4em;
     }
-    #Space-S
+    .Space-S
     {
         padding: 5.4em 0;
     /*  background-color: grey; /* DEBUG */ 
@@ -877,7 +877,7 @@ footer
         margin-bottom:8.5em;            /* Décalage de l'en-tête */
         margin-left:2.4em;
     }
-    #Space-S
+    .Space-S
     {
         padding: 5.4em 0;
     /*  background-color: grey; /* DEBUG */ 
@@ -1023,7 +1023,7 @@ footer
         margin-bottom:8.5em;            /* Décalage de l'en-tête */
         margin-left:2.4em;
     }
-    #Space-S
+    .Space-S
     {
         padding: 5.4em 0;
     /*  background-color: grey; /* DEBUG */ 
@@ -1189,7 +1189,7 @@ footer
         margin-left:2.4em;
     }
     
-    #Space-S
+    .Space-S
     {
         padding: 5.4em 0;
     /*  background-color: grey; /* DEBUG */ 
@@ -1360,7 +1360,7 @@ footer
         margin-left:1.2em;
     }
     
-    #Space-S
+    .Space-S
     {
         padding: 5.4em 0;
     /*  background-color: grey; /* DEBUG */ 
@@ -1375,7 +1375,7 @@ footer
     /*  border: 1px solid black;    /* DEBUG */
     }
     
-    #Space
+    .Space
     {
         margin: 0.4em;
     /*  border: 1px solid black;    /* DEBUG */
@@ -1549,7 +1549,7 @@ footer
         margin-left:1.2em;
     }
     
-    #Space-S
+    .Space-S
     {
         padding: 5.4em 0;
     /*  background-color: grey; /* DEBUG */ 
@@ -1564,7 +1564,7 @@ footer
     /*  border: 1px solid black;    /* DEBUG */
     }
     
-    #Space
+    .Space
     {
         margin: 0.3em;
     /*  border: 1px solid black;    /* DEBUG */
