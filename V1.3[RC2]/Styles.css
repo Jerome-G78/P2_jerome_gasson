@@ -8,21 +8,21 @@
 
 body
 {
-	font-family:Hind;
+    font-family:Hind;
 /*    font-size: 16px;
 	/* RESET*/
-	margin:0; 
-	padding:0;
+    margin:0; 
+    padding:0;
 }
 
 /* Conteneur */
 
 .Flex
 {
-	display:flex;
-	justify-content:center;
+    display:flex;
+    justify-content:center;
     align-items:center;
-	flex-wrap:wrap;
+    flex-wrap:wrap;
 /*	border:1px solid black; /* DEBUG */
 }
 
@@ -30,14 +30,14 @@ body
 
 #Presentation
 {
-	width:25em;
-	background-color:#f8c906;   /* Jaune Foncé */
+    width:24em;
+    background-color:#f8c906;   /* Jaune Foncé */
 /*	border:1px solid black;     /* DEBUG */
 }
 
 #PER
 {
-	width:53.9em;
+    width:43.8em;
 /*	background-color:green;	    /* DEBUG */
 /*	border:1px solid black;     /* DEBUG */
 }
@@ -46,83 +46,91 @@ body
 
 .MaPhoto img
 {
-	display:block;
-	margin:auto;
-	margin-top:4em;
-	width:15em;
-	height:15em;
+    display:block;
+    margin:auto;
+    margin-top:3.05em;
+    margin-bottom:2.8em;
+    width:13.4em;
+    height:13.4em;
 }
 
 .RoundedImage /* Arondissement d'image avec ombrage */
 {
-	overflow:hidden;
-	-moz-border-radius:50%;                 /* Paramètre de compatibilité : Mozilla */
-	-webkit-border-radius:50%;              /* Paramètre de compatibilité : Chrome / Chromium */
-	-o-border-radius:50%;                   /* Paramètre de compatibilité : Opera */
-	border-radius:50%;
-	box-shadow:0px 0px 0px 0.3em #c5a01b;   /* décalage d'ombrage et profondeur */
+    overflow:hidden;
+    -moz-border-radius:50%;                 /* Paramètre de compatibilité : Mozilla */
+    -webkit-border-radius:50%;              /* Paramètre de compatibilité : Chrome / Chromium */
+    -o-border-radius:50%;                   /* Paramètre de compatibilité : Opera */
+    border-radius:50%;
+    box-shadow:0px 0px 0px 0.3em #c5a01b;   /* décalage d'ombrage et profondeur */
 }
 
 #Presentation h3
 {
-	font-size:1.875em;
-	text-transform:uppercase;
-	text-align:center;
-    
-	color:#f8c906;              /* Jaune Foncé */
-	background-color:#404040;   /* Gris Foncé */
+    font-size:1.875em;
+    text-transform:uppercase;
+    text-align:center;
+      
+    color:#f8c906;              /* Jaune Foncé */
+    background-color:#404040;   /* Gris Foncé */
 }
 
 #Presentation p
 {
-	text-align:justify;
-	margin:0 0.3em;
+    font-size:0.92em;
+    text-align:justify;
+    word-wrap: break-word;
+    margin:0 0.3em;
 }
 
-.Contact p, .Apropos p
+.Contact p
 {
-    font-size:0.9em;
-   	padding: 0 3em;
-   	word-wrap: break-word;
-   /*	background-color:grey;      /* DEBUG */
+    padding:0 2.87em;
+/*  border: 0.1em solid black;  /* DEBUG */
+}
+
+.Apropos p
+{
+    padding:0 3em;
+/*  border: 0.1em solid black;  /* DEBUG */
 }
 
 .Apropos
 {
-	position: relative;
-	margin-bottom:1.250em;
+    position: relative;
+    margin-bottom:1.250em;
 }
 
 .Loisirs
 {
-	padding-top:45em;
-    padding-bottom:1em;
+    padding-top:41.8em;
+    padding-bottom:0.8em;
 }
 
 .Loisirs img
 {
-	width:3em; /* 12% */
-	padding:1% 1%;
-	padding-left:2%;
-	margin-left:5%;
-	margin-right:5%;
-	opacity:0.8;
+    width:3.4em;
+    padding:1% 1%;
+    padding-left:2%;
+    margin-top:0.2em;
+    margin-left:5%;
+    margin-right:5%;
+    opacity:0.8;
 }
 
 .RoundedImage-L
 {
-	overflow:hidden;
+    overflow:hidden;
     -moz-border-radius:50%;                 /* Paramètre de compatibilité : Mozilla */
-	-webkit-border-radius:50%;              /* Paramètre de compatibilité : Chrome / Chromium */
-	-o-border-radius:50%;                   /* Paramètre de compatibilité : Opera */
-	border-radius:50%;
-	box-shadow:0px 0px 0px 0.1em #404040;
+    -webkit-border-radius:50%;              /* Paramètre de compatibilité : Chrome / Chromium */
+    -o-border-radius:50%;                   /* Paramètre de compatibilité : Opera */
+    border-radius:50%;
+    box-shadow:0px 0px 0px 0.1em #404040;
 }
 
 a
 {
-	text-decoration:none;
-	color:black;
+    text-decoration:none;
+    color:black;
 }
 
 .Loisirs-Align
@@ -136,133 +144,170 @@ a
 
 /* Mise en Forme Exp, Formation & Recommandations START */
 
-.Deco hr
-{
-    width: 4em;
-	color:#f8c906;                  /* Jaune Foncé */
-	margin-top:-0.5em;
-	margin-bottom:8.5em;            /* Décalage de l'en-tête */
-	margin-left:2.4em;
-    border: 0.1em solid #f8c906;    /* Jaune Foncé */
-}
-
 #PER h1
 {
-	font-size:52px;
-	color:#4a4a4a;
-	
-	padding-left:0.7em;     /* 5% */
-	padding-bottom:0;
-	margin-top:1.6em;      /* 12% */
-	margin-bottom:0;
+    font-size:3.1em;
+    color:#4a4a4a;
+    
+    padding-left:1.29em;
+    padding-bottom:0;
+    margin-top:1.6em;
+    margin-bottom:0;
 }
 
 #PER h2
 {
-	font-size:24px;
-	color:#6b6b6b;
-	
-	padding-left:1.5em;
-	padding-top:0;
-	margin-top:0;
-	margin-bottom:0%;
+    font-size:1.8em;
+    color:#6b6b6b;
+    
+    padding-left:2.20em;
+    padding-top:0;
+    margin-top:0;
+    margin-bottom:0%;
 }
 
 .NameColor
 {
-	color:#f8c906;              /* Jaune Foncé */
-	text-transform:uppercase;
+    color:#f8c906;              /* Jaune Foncé */
+    text-transform:uppercase;
 }
 
 .IcoColor
 {
-	color:#f8c906;              /* Jaune Foncé */
+    color:#f8c906;              /* Jaune Foncé */
+}
+
+.Deco hr
+{
+    width: 4.75em;
+    color:#f8c906;                  /* Jaune Foncé */
+    margin-top:-0.5em;
+    margin-bottom:7.75em;            /* Décalage de l'en-tête vers Formation 7.75em */
+    margin-left:4em;
+    border: 0.1em solid #f8c906;    /* Jaune Foncé */
 }
 
 #Formations h3, #Parcours h3, #Recommandations h3
 {
-	font-size:2em;
+    font-size:2em;
     text-transform:uppercase;
     
-	padding-left:1.2em;     /* 5% */
-	margin-bottom:0.2em;    /* 1% */
+    padding-left:2.07em;
+    margin-bottom:0.2em;
     margin-top:0;
 
 /*  background-color: grey;     /* DEBUG */
 /*  border: 1px solid black;    /* DEBUG */
 }
 
+.fas
+{
+    font-size: 1.65em;
+}
+
 .Space
 {
-    margin: 0.5em;
+    margin: 0 0.2em;
 /*  border: 1px solid black;    /* DEBUG */
 }
 
-.Space-S
+Space-S
 {
-    padding: 4.2em 0;
-/*  background-color: grey; /* DEBUG */ 
+    padding-top:5em;
+    border: 1px solid black;    /* DEBUG */
 }
 
 #Formations hr, #Parcours hr, #Recommandations hr
 {
-	color:#f8c906; /* Jaune Foncé */
+    color:#f8c906; /* Jaune Foncé */
     
-	margin-left:2.4em;
-	margin-right:2.4em;
+    margin:0 3.9em;
     border: 1px solid #f8c906; /* Jaune Foncé */
-}
-
-#Formations h4, #Parcours h4
-{
-	font-size:1.250em;
-	text-transform:uppercase;
-}
-
-#Formations h5, #Parcours h5
-{
-	font-size:1em;
 }
 
 .Circle-1
 {
-    font-size:14px;
-	color:#f8c906;      /* Jaune Foncé */
+    font-size:1.3em;
+    color:#f8c906;      /* Jaune Foncé */
+  
+    padding-top:0.8em;
+    padding-left:3.1em;
+    float:left;
     
-	padding-top:1.250em;
-	padding-left:3em; /* 5% */
-	float:left;
+/*  background-color: grey; /* DEBUG */ 
 }
 
 .Circle-2
 {
-    font-size:12px;
-	color:#f8c906;      /* Jaune Foncé */
+    font-size:0.7em;
+    color:#f8c906;      /* Jaune Foncé */
     
-	padding-top:1.550em;
-	padding-left:3.490em;
-	float:left;
+    padding-top:5.9em;
+    padding-left:6em;
+    float:left;
+    
+/*  background-color: grey; /* DEBUG */ 
 }
 
-.Left /* Dates */
+.Left-C1 /* Dates */
 {
-	width:10.625em;
-	height:2.5em;
+    font-size:1.2em;
+    width:6em;
+    height:0.5em;
     
-	padding-left:1.250em;
-	padding-right:1.250em;
-	padding-bottom:3.750em;
-    margin-left:1.250em;
-	float:left;
+    margin-left:0.95em;
+    margin-top:-0.5em;
+    padding-right:1.250em;
+    padding-bottom:3.750em;
+    float:left;
+/*  background-color:grey; /* DEBUG */
+}
+
+.Right-C1 /* Details */
+{
+/*  padding:0.063em; */
+    margin-top:2.75em;
+    margin-left:19.95em;
+/*	background-color:green; /* DEBUG */
+}
+
+.Left-C2 /* Dates */
+{
+    font-size:1.2em;
+    width:6em;
+    height:0.5em;
+    
+    margin-left:1.1em;
+    margin-top:2.3em;
+/*	padding-left:1.240em; */
+    padding-right:1.250em;
+    padding-bottom:3.750em;
+    float:left;
 /*	background-color:grey; /* DEBUG */
 }
 
-.Right /* Details */
+.Right-C2 /* Details */
 {
-	padding:0.063em;
-	margin-top:0.125em;
-	margin-left:18.750em;
+    padding:0.063em;
+    margin-top:1.6em;
+    margin-left:19.9em;
 /*	background-color:green; /* DEBUG */
+}
+
+#Formations h4, #Parcours h4
+{
+    font-size:1.6em;
+    text-transform:uppercase;
+}
+
+#Formations h5, #Parcours h5
+{
+    font-size:1.14em;
+}
+
+#Formations p, #Parcours p
+{
+    font-size:1.05em;
 }
 
 #Recommandations
@@ -271,34 +316,40 @@ a
 /*	background-color:green; /* DEBUG */
 }
 
-#Recommandations p
-{
-	margin-top:-1.6em;
-/*	border:1px solid black; /* DEBUG */
-/*	background-color:grey;  /* DEBUG */
-}
-
-#Recommandations h4
-{
-	font-size:1.250em;
-	text-transform:uppercase;
-/*	border:1px solid black; /* DEBUG */
-}
-
 .Left-R
 {
-	margin-top:0;
-	margin-left:2.5em;
-	float:left;
+    margin-top:0;
+    margin-left:4em;
+    float:left;
 /*	border:1px solid black; /* DEBUG */
 
 }
 
 .Right-R
 {
-	margin-left:14em;
-	float:left;
+    margin-left:11.25em;
+    float:left;
 /*	border:1px solid black; /* DEBUG */
+}
+
+#Recommandations h4
+{
+    font-size:1.15em;
+    text-transform:uppercase;
+/*	border:1px solid black; /* DEBUG */
+}
+
+#Recommandations p
+{
+    font-size:1.15em;
+    margin-top:-1.6em;
+/*	border:1px solid black; /* DEBUG */
+/*	background-color:grey;  /* DEBUG */
+}
+
+.Mail
+{
+    font-size:0.8em;
 }
 
 /* Mise en Forme Exp et Formation END */
@@ -307,14 +358,14 @@ a
 
 footer
 {
-	background-color:#f8c906;   /* Jaune Foncé */
-	text-align:center;
-	padding:20%; 
+    background-color:#f8c906;   /* Jaune Foncé */
+    text-align:center;
+    padding:20%; 
 }
 
-@media screen and (min-width:1280px) and (orientation: landscape)                           /* 80em - Grand Ecran FHD+ */
+@media screen and (min-width:1102px) and (orientation: landscape)                           /* 80em - Grand Ecran FHD+ */
 {
-    
+  
 	#Responsive-Presentation
 	{
 		display:none;
@@ -326,91 +377,7 @@ footer
 	}
 }
 
-@media screen and (min-width:1080px) and (max-width:1279px) and (orientation: landscape)    /* 68em - Ecran HD */
-{
-    /* Elements du conteneur */
-    
-    #Presentation
-    {
-    	width:25em;
-    /*	border:1px solid black;     /* DEBUG */
-    }
-
-    #PER
-    {
-    	width:41.39em;
-    /*	background-color:green;	    /* DEBUG */
-    /*	border:1px solid black;     /* DEBUG */
-    }
-    
-    /* Mise en forme Présentation START */
-    
-    .Contact
-    {
-        margin-bottom: 0;
-    /*  margin-top: 0 ; */
-        padding-bottom: 0 ;
-    /*  border: 0.1em solid black;  /* DEBUG */
-    }
-    .Apropos
-    {
-        margin-bottom: 0;
-        margin-top: 0em ;
-        padding-bottom: 1em ;
-    /*  border: 0.1em solid black;  /* DEBUG */
-    }
-
-    .Loisirs
-    {
-        margin-bottom: 0;
-        margin-top: -0.8em ;
-        padding-bottom: 1em ;
-    /*  border: 0.1em solid black;  /* DEBUG */
-    }
-    
-    .Contact p, .Apropos p
-    {
-        font-size:0.9em;
-    /*	background-color:grey;      /* DEBUG */
-    }
-    /* Mise en forme Présentation END */
-    
-    /* Mise en Forme Exp et Formation START */
-    
-    .Deco hr
-    {
-        width: 4em;
-        margin-top:-0.5em;
-        margin-bottom:8.5em;            /* Décalage de l'en-tête */
-        margin-left:2.4em;
-    }
-    .Space-S
-    {
-        padding: 5.4em 0;
-    /*  background-color: grey; /* DEBUG */ 
-    }
-    
-    #Formations p, #Parcours p, #Recommandations p
-    {
-        font-size:0.8em;
-    }
-    
-    /* Mise en Forme Exp et Formation END */
-    
-    /* Pied de page */
-    #Responsive-Presentation
-    {
-        display: none;
-    }
-    
-	footer
-	{
-		display:none;
-	}
-	
-
-}
-@media screen and (min-width:801px) and (max-width:1079px) and (orientation: landscape)     /* 49em - Tablette */
+@media screen and (min-width:801px) and (max-width:1101px) and (orientation: landscape)     /* 49em - Tablette */
 {
     /* Elements du conteneur */
 
@@ -498,6 +465,7 @@ footer
 	{
         width:49em;
 		background-color:#f8c906; /* Jaune Foncé */
+        border: 0.1em solid black;
 	}
 	
 	#Responsive-Presentation h3
@@ -508,12 +476,11 @@ footer
         color:#f8c906;              /* Jaune Foncé */
     
         background-color:#404040;   /* Gris Foncé */
-	
-        padding-top:0%;
-        padding-bottom:0%;
-	}
-	
-	.Responsive-Loisirs-Align
+        
+        margin-top:0em;
+    }
+    
+    .Responsive-Loisirs-Align
 	{
         display:block;
 		text-align:center;
@@ -522,8 +489,8 @@ footer
 		padding-bottom:0em;
 	/*	background-color:grey;  /* DEBUG */
 	}
-	
-	.Responsive-Loisirs-Align img
+    
+    .Responsive-Loisirs-Align img
 	{
 		width:5em;
 		padding:1% 1%;
@@ -643,8 +610,7 @@ footer
     
         background-color:#404040;   /* Gris Foncé */
 	
-        padding-top:0%;
-        padding-bottom:0%;
+        margin-top:0em;
 	}
 	
 	.Responsive-Loisirs-Align
@@ -784,8 +750,7 @@ footer
     
         background-color:#404040;   /* Gris Foncé */
 	
-        padding-top:0%;
-        padding-bottom:0%;
+        margin-top:0em;
 	}
 	
 	.Responsive-Loisirs-Align
@@ -930,8 +895,7 @@ footer
     
         background-color:#404040;   /* Gris Foncé */
 	
-        padding-top:0%;
-        padding-bottom:0%;
+        margin-top:0em;
 	}
 	
 	.Responsive-Loisirs-Align
@@ -1094,8 +1058,7 @@ footer
     
         background-color:#404040;   /* Gris Foncé */
 	
-        padding-top:0%;
-        padding-bottom:0%;
+        margin-top:0em;
 	}
 	
 	.Responsive-Loisirs-Align
@@ -1255,8 +1218,7 @@ footer
     
         background-color:#404040;   /* Gris Foncé */
 	
-        padding-top:0%;
-        padding-bottom:0%;
+        margin-top:0em;
 	}
 	
 	.Responsive-Loisirs-Align
@@ -1444,8 +1406,7 @@ footer
     
         background-color:#404040;   /* Gris Foncé */
 	
-        padding-top:0%;
-        padding-bottom:0%;
+        margin-top:0em;
 	}
 	
 	.Responsive-Loisirs-Align
@@ -1633,8 +1594,7 @@ footer
     
         background-color:#404040;   /* Gris Foncé */
 	
-        padding-top:0%;
-        padding-bottom:0%;
+        margin-top:0em;
 	}
 	
 	.Responsive-Loisirs-Align
