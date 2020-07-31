@@ -307,7 +307,7 @@ a
 
 footer
 {
-	background-color:#2196F3;           /* Bleu ciel*/
+	background-color:#f8c906;   /* Jaune Foncé */
 	text-align:center;
 	padding:20%; 
 }
@@ -488,14 +488,15 @@ footer
         margin-top:0.125em;
         margin-left:18.750em;
         margin-right:2.5em;
-    	background-color:green;     /* DEBUG */
-        border:0.1em solid black;   /* DEBUG */
+    /*	background-color:green;     /* DEBUG */
+    /*  border:0.1em solid black;   /* DEBUG */
     }
     /* Mise en Forme Exp et Formation END */
     
     /* Mise en page Bas de page responsive START */
 	#Responsive-Presentation
 	{
+        width:49em;
 		background-color:#f8c906; /* Jaune Foncé */
 	}
 	
@@ -621,14 +622,15 @@ footer
         margin-top:0.125em;
         margin-left:18.750em;
         margin-right:2.5em;
-    	background-color:green;     /* DEBUG */
-        border:0.1em solid black;   /* DEBUG */
+    /*	background-color:green;     /* DEBUG */
+    /*  border:0.1em solid black;   /* DEBUG */
     }
     /* Mise en Forme Exp et Formation END */
     
     /* Mise en page Bas de page responsive START */
 	#Responsive-Presentation
 	{
+        width:49em;
 		background-color:#f8c906; /* Jaune Foncé */
 	}
 	
@@ -1673,7 +1675,7 @@ footer
 {
     body
 	{
-        background-color:#2196F3; /* Bleu ciel*/
+        background-color:#f8c906;   /* Jaune Foncé */
 	}
     
 	#Responsive-Presentation
