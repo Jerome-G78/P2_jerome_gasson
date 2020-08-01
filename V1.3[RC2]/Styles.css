@@ -23,7 +23,7 @@ body
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-/*	border:1px solid black; /* DEBUG */
+/*	border:1px solid purple; /* DEBUG */
 }
 
 /* Elements du conteneur */
@@ -37,9 +37,9 @@ body
 
 #PER
 {
-    width:43.8em;
+    width:49.2em;
 /*	background-color:green;	    /* DEBUG */
-/*	border:1px solid black;     /* DEBUG */
+/*  border:1px solid black; /* DEBUG */ /* Il faut faire l'espacement */
 }
 
 /* Mise en forme Présentation START */
@@ -151,7 +151,7 @@ a
     
     padding-left:1.29em;
     padding-bottom:0;
-    margin-top:1.6em;
+    margin-top:0em; /* 2.45em*/
     margin-bottom:0;
 }
 
@@ -187,6 +187,27 @@ a
     border: 0.1em solid #f8c906;    /* Jaune Foncé */
 }
 
+#Formations
+{
+    position:relative;
+    top:-2em;
+/*  background-color: red;     /* DEBUG */
+}
+
+#Parcours
+{
+    position:relative;
+    top:2.5em;
+/*  background-color: orange;     /* DEBUG */
+}
+
+#Recommandations
+{
+    position:relative;
+    top:5.7em;
+/*  background-color: green;     /* DEBUG */
+}
+
 #Formations h3, #Parcours h3, #Recommandations h3
 {
     font-size:2em;
@@ -202,19 +223,13 @@ a
 
 .fas
 {
-    font-size: 1.65em;
+    font-size: 1.3em;
 }
 
 .Space
 {
     margin: 0 0.2em;
 /*  border: 1px solid black;    /* DEBUG */
-}
-
-Space-S
-{
-    padding-top:5em;
-    border: 1px solid black;    /* DEBUG */
 }
 
 #Formations hr, #Parcours hr, #Recommandations hr
@@ -255,10 +270,10 @@ Space-S
     width:6em;
     height:0.5em;
     
-    margin-left:0.95em;
-    margin-top:-0.5em;
     padding-right:1.250em;
     padding-bottom:3.750em;
+    margin-left:0.95em;
+    margin-top:-0.5em;
     float:left;
 /*  background-color:grey; /* DEBUG */
 }
@@ -268,7 +283,9 @@ Space-S
 /*  padding:0.063em; */
     margin-top:2.75em;
     margin-left:19.95em;
+    margin-right:4em;
 /*	background-color:green; /* DEBUG */
+/*	border:1px solid black; /* DEBUG */
 }
 
 .Left-C2 /* Dates */
@@ -276,12 +293,12 @@ Space-S
     font-size:1.2em;
     width:6em;
     height:0.5em;
-    
-    margin-left:1.1em;
-    margin-top:2.3em;
+
 /*	padding-left:1.240em; */
     padding-right:1.250em;
     padding-bottom:3.750em;
+    margin-left:1.1em;
+    margin-top:2.3em;
     float:left;
 /*	background-color:grey; /* DEBUG */
 }
@@ -291,7 +308,9 @@ Space-S
     padding:0.063em;
     margin-top:1.6em;
     margin-left:19.9em;
+    margin-right:4em;
 /*	background-color:green; /* DEBUG */
+/*	border:1px solid black; /* DEBUG */
 }
 
 #Formations h4, #Parcours h4
@@ -321,15 +340,16 @@ Space-S
     margin-top:0;
     margin-left:4em;
     float:left;
-/*	border:1px solid black; /* DEBUG */
-
+/*	background-color:red;   /* DEBUG */
 }
 
 .Right-R
 {
-    margin-left:11.25em;
+    margin-bottom:-2em;
+    margin-left:12em;
+    padding:0;
     float:left;
-/*	border:1px solid black; /* DEBUG */
+/*  background-color:red;   /* DEBUG */
 }
 
 #Recommandations h4
@@ -363,7 +383,7 @@ footer
     padding:20%; 
 }
 
-@media screen and (min-width:1102px) and (orientation: landscape)                           /* 80em - Grand Ecran FHD+ */
+@media screen and (min-width:1190px) and (orientation: landscape)                           /* 74em - Grand Ecran FHD+  */
 {
   
 	#Responsive-Presentation
@@ -377,7 +397,41 @@ footer
 	}
 }
 
-@media screen and (min-width:801px) and (max-width:1101px) and (orientation: landscape)     /* 49em - Tablette */
+@media screen and (min-width:1102px) and (max-width:1189px) and (orientation: landscape)    /* 69em - Grand Ecran FHD+  */
+{
+  /* Elements du conteneur */
+
+    #Presentation
+    {
+        width:24em;
+        background-color:#f8c906;   /* Jaune Foncé */
+    /*	border:1px solid black;     /* DEBUG */
+    }
+    
+    #PER
+    {
+        width:43.8em;
+    /*	background-color:green;	    /* DEBUG */
+    /*	border:1px solid black;     /* DEBUG */
+    }
+    
+    #Formations h4, #Parcours h4
+    {
+        font-size:1.3em;
+    }
+
+	#Responsive-Presentation
+	{
+		display:none;
+	}
+	
+	footer
+	{
+		display:none;
+	}
+}
+
+@media screen and (min-width:801px) and (max-width:1101px) and (orientation: landscape)     /* 50em - Tablette HD       */
 {
     /* Elements du conteneur */
 
@@ -465,7 +519,6 @@ footer
 	{
         width:49em;
 		background-color:#f8c906; /* Jaune Foncé */
-        border: 0.1em solid black;
 	}
 	
 	#Responsive-Presentation h3
@@ -511,7 +564,7 @@ footer
 
 }
 
-@media screen and (min-width:801px) and (max-width:1079px) and (orientation: portrait)      /* 49em - Tablette */
+@media screen and (min-width:801px) and (max-width:1101px) and (orientation: portrait)      /* 49em - Tablette */
 {
     /* Elements du conteneur */
 
@@ -609,11 +662,11 @@ footer
         color:#f8c906;              /* Jaune Foncé */
     
         background-color:#404040;   /* Gris Foncé */
-	
+        
         margin-top:0em;
-	}
-	
-	.Responsive-Loisirs-Align
+    }
+    
+    .Responsive-Loisirs-Align
 	{
         display:block;
 		text-align:center;
@@ -622,8 +675,8 @@ footer
 		padding-bottom:0em;
 	/*	background-color:grey;  /* DEBUG */
 	}
-	
-	.Responsive-Loisirs-Align img
+    
+    .Responsive-Loisirs-Align img
 	{
 		width:5em;
 		padding:1% 1%;
@@ -694,15 +747,34 @@ footer
     
     .Deco hr
     {
-        width: 4em;
+        width: 4.7em;
         margin-top:-0.5em;
         margin-bottom:8.5em;            /* Décalage de l'en-tête */
-        margin-left:2.4em;
+        margin-left:4em;
     }
+    
     .Space-S
     {
         padding: 5.4em 0;
     /*  background-color: grey; /* DEBUG */ 
+    }
+    
+    .fas
+    {
+        font-size: 1.4em;
+    }
+    
+    #Formations h3, #Parcours h3, #Recommandations h3
+    {
+        font-size:1.8em;
+    }
+    
+    #Formations hr, #Parcours hr, #Recommandations hr
+    {
+        color:#f8c906; /* Jaune Foncé */
+        
+        margin:0 3.8em;
+        border: 1px solid #f8c906; /* Jaune Foncé */
     }
     
     #Formations p, #Parcours p, #Recommandations p
