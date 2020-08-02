@@ -1,5 +1,6 @@
-ITEM				Maquette | Web 	1190px [en CM] / 99%
+(1:1) 1190px / 99% / [Valeurs en CM]
 
+ITEM				Maquette | Web
 Flex -------------------------------
 Presentaiton 	: 	13.55	 | 13.55
 PER 			: 	24.73	 | 24.73
