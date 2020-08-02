@@ -7,14 +7,14 @@ V 1.3 [Release-Candidate 2]
 	- Le code [HTML/CSS] à été réordonnée pour une meilleur lisibilitée.
 	
 	- Le code de décoration (.Deco) à été optimisé.
-    
-	- Paramétrages "Media Queries" optimisés.
 	
 	- Iinterface PC optimisée.
 	
-	- Ajustements polices et décalages en cours...
+	- Ajustements polices et décalages Maquette terminée : Cohérence 99% (1:1)[1190px]
 	
-	- Néttoyage en cours du code [CSS]...
+	- Ajustements des "Media Queries" polices et décalages en cours...
+	
+	- Nettoyage du code CSS en cours...
     
 -------------------------
     
@@ -24,11 +24,11 @@ V 1.3 [Release-Candidate 2]
 	- The code [HTML/CSS] has been reordered for better readability.
     
 	- The decoration code (.Deco) has been optimized.
-	
-	- Optimized "Media Queries" settings.
 
 	- Optimized PC interface.
 
-	- Fonts and offsets adjustments in progress ...
-
-	- Cleanup of the [CSS] code ...
+	- Fonts and Offsets Adjustments Finished Artwork: 99% Consistency (1:1) [1190px]
+	
+	- Adjustments of "Media Queries" fonts and offsets in progress ...
+	
+	- CSS code cleaning in progress ...
