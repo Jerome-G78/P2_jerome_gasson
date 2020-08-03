@@ -1,0 +1,33 @@
+---------------------------
+V 1.4 
+---------------------------
+
+	- Ce code est stable et fonctionnel, cependant quelques défaut d'affichage peuvent encore être présents.
+    
+	- Le code [HTML/CSS] à été réordonnée pour une meilleur lisibilitée.
+	
+	- Le code de décoration (.Deco) à été optimisé.
+	
+	- Iinterface PC optimisée.
+	
+	- Ajustements polices et décalages Maquette terminée : Cohérence 99% (1:1) [1190px]
+	
+	- Ajustements des "Media Queries" polices et décalages Terminée.
+	
+	- Nettoyage du code CSS en cours...
+    
+-------------------------
+	
+	- This code is stable and functional, however some display faults may still be present.
+	
+	- The code [HTML/CSS] has been reordered for better readability.
+    
+	- The decoration code (.Deco) has been optimized.
+
+	- Optimized PC interface.
+
+	- Fonts and Offsets Adjustments Finished Artwork: 99% Consistency (1:1) [1190px]
+	
+	- Adjustments of "Media Queries" fonts and offsets Completed.
+	
+	- CSS code cleaning in progress ...
